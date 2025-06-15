@@ -22,7 +22,8 @@ interface Result {
 }
 
 interface ChatResponse {
-  text: string;
+  followup_needed: boolean;
+  message: string;
   results: Result[];
 }
 
@@ -35,48 +36,46 @@ interface ChatResponse {
 export class AppComponent {
   messages = signal<ChatMessage[]>([]);
   userInput = signal('');
-  lastUserQuery = signal('');
-  isFollowup = computed(() => !!this.lastUserQuery());
+  conversationHistory = signal<string[]>([]);
   // Triggers a new request when user sends a message
   private trigger = signal(0);
   private api = inject(ApiService);
 
-  // Resource for recommendations or refine
   chatResource = httpResource<ChatResponse>(() => {
-    // Only trigger when user sends a message
     if (this.trigger() === 0) return undefined;
-    const isFollowup = this.isFollowup();
-
-    const endpoint = isFollowup ? '/refine' : '/recommend';
-    const payload = isFollowup
-      ? { original_query: this.lastUserQuery(), followup_answer: this.userInput() }
-      : { query: this.userInput() };
-    return this.api.createRequest(endpoint, payload);
+    return this.api.createRequest('/recommend', {
+      conversation_history: this.conversationHistory(),
+      current_input: this.userInput(),
+    });
   });
 
   constructor() {
-    // Effect to update messages when resource value changes
     effect(() => {
       const status = this.chatResource.status();
-
       if (status.toString() === 'loading') return;
 
       const value = this.chatResource.value();
 
       if (this.trigger() === 0 || !value) return;
-      this.lastUserQuery.set(this.userInput());
+      // Update conversation history after successful request
+      this.conversationHistory.update(hist => [...hist, this.userInput()]);
 
-      // Handle API response with 'results' array
-      if (value.results?.length) {
+      if (value.followup_needed) {
+        // Show a template message, then the actual message
         this.messages.update(msgs => [
           ...msgs,
-          { role: 'ai', text: 'Here are some schemes that match your query:', schemes: value.results }
+          { role: 'ai', text: 'Some recommendations are like:', schemes: value.results },
+          { role: 'ai', text: value.message }
+        ]);
+      } else if (value.results?.length || value.message) {
+        this.messages.update(msgs => [
+          ...msgs,
+          { role: 'ai', text: value.message ?? 'Here are some schemes that match your query:', schemes: value.results }
         ]);
       } else {
         this.messages.update(msgs => [...msgs, { role: 'ai', text: 'Sorry, something went wrong. Please try again.' }]);
       }
 
-      // Reset user input and trigger
       this.userInput.set('');
       this.trigger.set(0);
     });
@@ -88,6 +87,7 @@ export class AppComponent {
 
   sendMessage() {
     if (!this.userInput().trim()) return;
+
     const userMsg: ChatMessage = { role: 'user', text: this.userInput() };
     this.messages.update(msgs => [...msgs, userMsg]);
     this.trigger.update(v => v + 1);

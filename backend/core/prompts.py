@@ -12,12 +12,12 @@ When given a user query and a list of potentially relevant schemes, your job is 
 Return the final response strictly as a JSON object in the following format:
 
 {
-  "message": "A helpful, friendly summary of why these schemes are shown.",
+  "message": "<A short sentence summarizing the match>",
   "schemes": [
     {
-      "name": "PM Mudra Yojana",
-      "reason": "Provides small business loans up to ₹10 lakh and fits the user's query about dairy loans.",
-      "link": "https://www.mudra.org.in"
+      "name": "<Scheme Name>",
+      "reason": "<Why this scheme is suitable>",
+      "link": "<Relevant URL if known>"
     },
     ...
   ]
@@ -45,24 +45,34 @@ Only return the question or null — no JSON or explanation.
 
 def build_prompt(query: str, schemes: list) -> str:
     return f"""
-User Query: \"{query}\"
+You are a helpful AI that recommends government schemes.
+
+Conversation Context: \"{query}\"
 
 Available Schemes:
 {json.dumps(schemes, indent=2)}
 
 Respond in the following JSON format:
-[
-  {{ \"name\": \"Scheme Name\", \"reason\": \"Why this scheme matches\", \"link\": \"https://example.com\" }}
-]
+
+{{
+  "message": "Summary of why these schemes are useful",
+  "schemes": [
+    {{ "name": "Scheme Name", "reason": "Why this scheme matches", "link": "https://example.com" }}
+  ]
+}}
+Only return valid JSON, no extra commentary.
 """
 
 def build_decision_prompt(query: str, matches: list) -> str:
     return f"""
-User Query: \"{query}\"
+You are an assistant helping narrow down schemes.
+
+Conversation Context: \"{query}\"
 
 Top Matching Schemes:
 {json.dumps(matches[:10], indent=2)}
 
-If further clarification is needed, return a clarifying question.
-If not, return null.
+If more information is needed to refine the results, return a single follow-up question as plain text.
+
+If not, return the word \"null\".
 """

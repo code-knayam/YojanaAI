@@ -3,8 +3,8 @@ import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List, Dict, Any
-from service.recommendation import find_matching_schemes, refine_results
+from typing import List, Optional
+from service.recommendation import get_scheme_response
 from core.embedding_search import index_schemes
 from core.utils import load_schemes
 from contextlib import asynccontextmanager
@@ -32,29 +32,17 @@ app.add_middleware(
 
 
 # Request models
-class QueryRequest(BaseModel):
-    query: str
-
-class RefineRequest(BaseModel):
-    original_query: str
-    followup_answer: str
+class SchemeQuery(BaseModel):
+    conversation_history: List[str]
+    current_input: Optional[str] = ""
 
 # API endpoint
 @app.post("/recommend")
-async def recommend_endpoint(request: QueryRequest):
-    try:
-        result = await find_matching_schemes(request.query)
-        return result
+async def refine_endpoint(payload: SchemeQuery):
+    try:        
+        return await get_scheme_response(payload.conversation_history, payload.current_input)
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-@app.post("/refine")
-async def refine_endpoint(request: RefineRequest):
-    try:
-        result = await refine_results(request.original_query, request.followup_answer)
-        return {"results": result}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=200, detail=str(e))
 
 # Re-indexing endpoint
 @app.post("/reindex")
