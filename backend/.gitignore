@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Local environment
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+logs/
+*.out
+
+# Cache files
+.cache/
+*.sqlite3
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# ChromaDB persistent store
+chroma_db/
+ch
