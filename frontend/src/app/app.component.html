@@ -1,0 +1,37 @@
+<div class="yojana-header">
+  <div class="logo">Yojana <span>AI</span></div>
+</div>
+<div class="chat-container">
+  <div class="chat-messages">
+    @for (message of messages(); track $index) {
+    <div class="chat-message" [class]="{ 'user': message.role === 'user', 'ai': message.role === 'ai' }">
+      <div class="message-content">
+        @if(message.role === 'ai' && message.schemes?.length) {
+        <div class="ai-response">{{ message.text }}</div>
+        <div class="schemes-list">
+          @for (scheme of message.schemes; track $index) {
+          <div class="scheme-card">
+            <div class="scheme-title">{{ scheme.name }}</div>
+            <div class="scheme-reason">{{ scheme.reason }}</div>
+            <a class="scheme-link" [href]="scheme.link" target="_blank">View Details</a>
+          </div>
+          }
+        </div>
+        }
+        @if(!message.schemes?.length) {
+        {{ message.text }}
+        }
+      </div>
+    </div>
+    }
+    @if(loading) {
+    <div class="chat-message ai loading">
+      <div class="message-content">Yojana AI is thinking...</div>
+    </div>
+    }
+  </div>
+  <form class="chat-input" (ngSubmit)="sendMessage()">
+    <input [(ngModel)]="userInput" name="userInput" required placeholder="Type your query..." autocomplete="off" />
+    <button type="submit" [disabled]="loading || !userInput().trim()">Send</button>
+  </form>
+</div>
