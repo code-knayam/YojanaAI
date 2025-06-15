@@ -11,7 +11,10 @@ PERSIST_DIR = "/app/chroma_db"
 SCHEMES_COLLECTION = "schemes"
 
 # Load local embedding model
-model = SentenceTransformer("all-MiniLM-L6-v2")
+def get_model():
+    if not hasattr(get_model, "model"):
+        get_model.model = SentenceTransformer("all-MiniLM-L6-v2")
+    return get_model.model
 
 # Shared Chroma client with persistence
 chroma_client = chromadb.Client(Settings(
@@ -51,6 +54,8 @@ async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = Fal
             scheme["keywords"] = ", ".join(scheme["keywords"])
 
         content = f"{scheme['name']} - {scheme['purpose']} - {scheme['eligibility']} - {scheme['sector']}"
+        model = get_model()
+        
         embedding = model.encode(content).tolist()
 
         collection.add(
@@ -65,6 +70,8 @@ async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = Fal
 # Query schemes by semantic similarity
 async def query_schemes(user_query: str, top_k: int = 10) -> List[Dict[str, any]]:
     collection = get_collection()
+    model = get_model()
+    
     embedding = model.encode(user_query).tolist()
 
     result = collection.query(query_embeddings=[embedding], n_results=top_k)
