@@ -24,7 +24,7 @@ interface Result {
 interface ChatResponse {
   followup_needed: boolean;
   message: string;
-  results: Result[];
+  results?: Result[];
 }
 
 @Component({
@@ -34,18 +34,24 @@ interface ChatResponse {
   imports: [FormsModule]
 })
 export class AppComponent {
-  messages = signal<ChatMessage[]>([]);
+  messages = signal<ChatMessage[]>([
+    {
+      role: 'ai',
+      text: `Hello! 👋 I am Yojana AI, your assistant for discovering government schemes in India.\n\nYou can ask me about education, business, agriculture, women empowerment, scholarships, and more. Just type your query and I'll recommend the most relevant schemes for you!`
+    }
+  ]);
   userInput = signal('');
   conversationHistory = signal<string[]>([]);
   // Triggers a new request when user sends a message
   private trigger = signal(0);
   private api = inject(ApiService);
+  private _lastInput = '';
 
   chatResource = httpResource<ChatResponse>(() => {
     if (this.trigger() === 0) return undefined;
     return this.api.createRequest('/recommend', {
       conversation_history: this.conversationHistory(),
-      current_input: this.userInput(),
+      current_input: this._lastInput,
     });
   });
 
@@ -58,15 +64,21 @@ export class AppComponent {
 
       if (this.trigger() === 0 || !value) return;
       // Update conversation history after successful request
-      this.conversationHistory.update(hist => [...hist, this.userInput()]);
+      this.conversationHistory.update(hist => [...hist, this._lastInput]);
 
       if (value.followup_needed) {
-        // Show a template message, then the actual message
-        this.messages.update(msgs => [
-          ...msgs,
-          { role: 'ai', text: 'Some recommendations are like:', schemes: value.results },
-          { role: 'ai', text: value.message }
-        ]);
+        if (value.results && value.results.length > 0 && value.results.length < 6) {
+          this.messages.update(msgs => [
+            ...msgs,
+            { role: 'ai', text: 'Some recommendations are like:', schemes: value.results },
+            { role: 'ai', text: value.message }
+          ]);
+        } else {
+          this.messages.update(msgs => [
+            ...msgs,
+            { role: 'ai', text: value.message }
+          ]);
+        }
       } else if (value.results?.length || value.message) {
         this.messages.update(msgs => [
           ...msgs,
@@ -86,10 +98,12 @@ export class AppComponent {
   }
 
   sendMessage() {
-    if (!this.userInput().trim()) return;
-
-    const userMsg: ChatMessage = { role: 'user', text: this.userInput() };
+    const input = this.userInput().trim();
+    if (!input) return;
+    const userMsg: ChatMessage = { role: 'user', text: input };
     this.messages.update(msgs => [...msgs, userMsg]);
+    this.userInput.set('');
+    this._lastInput = input;
     this.trigger.update(v => v + 1);
   }
 }

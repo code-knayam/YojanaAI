@@ -13,6 +13,7 @@ Return the final response strictly as a JSON object in the following format:
 
 {
   "message": "<A short sentence summarizing the match>",
+  "too_vague": true/false,
   "schemes": [
     {
       "name": "<Scheme Name>",

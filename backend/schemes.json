@@ -2,1561 +2,375 @@
     {
         "name": "Pradhan Mantri Mudra Yojana (PMMY)",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
+        "purpose": "Provide collateral-free loans to non-corporate, non-farm micro/small businesses.",
+        "eligibility": "Indian citizens aged 18–65 with business plan in non-farm sector.",
         "location": "All India",
         "amount_range": "Up to ₹10 Lakhs",
         "link": "https://www.mudra.org.in",
         "keywords": [
             "loan",
             "entrepreneurship",
-            "business"
+            "business",
+            "MSME"
         ],
-        "id": "00984331-8f97-47c4-811a-1822d9ade859"
+        "id": "1"
     },
     {
-        "name": "Stand Up India Scheme",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "5378300b-ac07-4949-ac9d-ca4f86a3f5fa"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "771c883f-51e5-4da9-8c6f-2274ae0eb36a"
-    },
-    {
-        "name": "KALIA Scheme (Odisha)",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "c2745d35-8d5c-4d7f-9729-e804a2913f95"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "687ed690-e8c7-4db2-a933-1d01e72c7fab"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 2",
+        "name": "Stand‑Up India",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
+        "purpose": "Facilitate loans for Greenfield enterprises by women/SC/ST entrepreneurs.",
+        "eligibility": "Indian women/SC/ST aged ≥18 seeking greenfield venture finance.",
         "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "d5780d6d-664e-41a3-bb6a-ab55fa80c7b8"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 2",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
+        "amount_range": "₹10 Lakhs–₹1 Crore",
         "link": "https://www.standupmitra.in",
         "keywords": [
             "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
+            "greenfield",
+            "start‑up",
+            "women"
         ],
-        "id": "8bd6a466-7903-40bd-ba57-96caad1c1390"
+        "id": "2"
     },
     {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 2",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "46454dfa-325f-451c-8245-e29e6270606a"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 2",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "e76787b1-dfd9-4284-91fc-4c82ec6e0606"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 2",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "e258234c-c871-406e-b389-3c3cc21df0b5"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 3",
+        "name": "Stree Shakti Yojana",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "58f6905b-b801-4a32-8cdb-92408cf62790"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 3",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
+        "purpose": "Interest rebate loans for women-owned businesses.",
+        "eligibility": "Women owning ≥50% of business, EDP trained.",
+        "location": "All India (select banks)",
+        "amount_range": "Up to ₹25–50 Lakhs",
+        "link": "",
         "keywords": [
             "loan",
             "women",
-            "SC",
-            "ST",
-            "startup"
+            "MSME",
+            "interest concession"
         ],
-        "id": "8ff984d9-a15c-4227-b848-d9bb5ca31f4b"
+        "id": "3"
     },
     {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 3",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "e97d5662-2bc0-44da-8883-a3e754fd0029"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 3",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "faa15ea7-2f3b-4775-b49e-8d40504b323d"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 3",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "218dfe05-a365-4984-8fcb-495b55f90fa1"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 4",
+        "name": "Cent Kalyani Scheme",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "purpose": "Support MSME expansion & working capital needs of women entrepreneurs.",
+        "eligibility": "Women-owned MSMEs; any creditworthy woman entrepreneur.",
+        "location": "All India (Central Bank of India)",
+        "amount_range": "Up to ₹1 Crore",
+        "link": "",
         "keywords": [
             "loan",
-            "entrepreneurship",
-            "business"
+            "MSME",
+            "expansion",
+            "women"
         ],
-        "id": "523c0322-6731-4eed-8568-1cd86921b57b"
+        "id": "4"
     },
     {
-        "name": "Stand Up India Scheme - Variant 4",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "90c9e8b0-28c4-4029-9680-718392e71f1f"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 4",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "78f1358c-c902-45cc-b6ca-bb4625729a5e"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 4",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "a8b0db7a-b4d6-407f-a635-d9f0af50ede7"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 4",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "991df8d5-2aa1-40b8-b397-4c3446b03aba"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 5",
+        "name": "Udyogini Scheme",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "purpose": "Provide concessional loans and subsidies to rural women entrepreneurs.",
+        "eligibility": "Women aged 18–45 from low-income households.",
+        "location": "Select states",
+        "amount_range": "Up to ₹1 Lakh",
+        "link": "",
         "keywords": [
             "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "969848f7-d08d-4274-9109-7a258b2ae62e"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 5",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
+            "subsidy",
             "women",
-            "SC",
-            "ST",
-            "startup"
+            "rural"
         ],
-        "id": "30ea6e13-bc47-464b-8df2-6a152001b372"
+        "id": "5"
     },
     {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 5",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
+        "name": "Annapurna Scheme",
+        "sector": "Food & Catering",
+        "purpose": "Loans for women to start food and catering businesses.",
+        "eligibility": "Women catering/food entrepreneurs.",
+        "location": "All India (banks)",
+        "amount_range": "Up to ₹50,000",
+        "link": "",
         "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
+            "loan",
+            "food business",
+            "women"
         ],
-        "id": "44cb4e98-1153-4e17-a5b5-97be103a86f7"
+        "id": "6"
     },
     {
-        "name": "KALIA Scheme (Odisha) - Variant 5",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "b2b05727-0a6b-4e75-bf00-28d7dd6e44d7"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 5",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "6bdf41ba-493a-4775-a82a-4bf292fbcb45"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 6",
+        "name": "Mahila Udyam Nidhi",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
+        "purpose": "Loans for women to set up or expand small businesses.",
+        "eligibility": "Women entrepreneurs; new or existing enterprises.",
+        "location": "All India (SIDBI)",
         "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "link": "",
         "keywords": [
             "loan",
-            "entrepreneurship",
-            "business"
+            "SIDBI",
+            "women"
         ],
-        "id": "262b3db4-559e-47df-b0e8-8592c2a96722"
+        "id": "7"
     },
     {
-        "name": "Stand Up India Scheme - Variant 6",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "9b12e2c1-4ff0-4821-be28-f96205a3d815"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 6",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "1c20c3c9-88a6-4ad6-9857-06f7c3b56aa8"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 6",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "dc57166d-809e-46ea-83ca-f52928edb7ff"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 6",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "736adb95-9c37-414c-aa85-4386d9ee00f8"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 7",
+        "name": "Dena Shakti Scheme",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "bff8d46b-2028-4003-aba9-43cfc0de36bb"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 7",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
+        "purpose": "Bank loans for women in retail, agriculture, micro-credit, and small businesses.",
+        "eligibility": "Women entrepreneurs in eligible sectors.",
+        "location": "All India (Bank of Baroda)",
+        "amount_range": "Up to ₹20 Lakhs",
+        "link": "",
         "keywords": [
             "loan",
             "women",
-            "SC",
-            "ST",
-            "startup"
+            "Bank of Baroda"
         ],
-        "id": "c0639317-4ddd-4c38-8a23-5a6b1f87769b"
+        "id": "8"
     },
     {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 7",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "d824f08a-0ddf-4133-b296-582909485105"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 7",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "82023c5a-ae89-404f-ad7c-71004e5578f2"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 7",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "028c5650-4160-4844-a988-61f99c797e16"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 8",
+        "name": "CMEGP (Chief Minister Employment Generation Programme)",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "purpose": "Seed capital/margin money assistance & loans for small manufacturing/service units.",
+        "eligibility": "Entrepreneurs including women; project cost ceilings apply.",
+        "location": "State-specific (e.g., Maharashtra)",
+        "amount_range": "Up to ₹50 Lakhs",
+        "link": "",
         "keywords": [
             "loan",
-            "entrepreneurship",
-            "business"
+            "grant",
+            "employment generation"
         ],
-        "id": "9c66f778-4bf1-4ff6-bd16-0fd80a6105db"
+        "id": "9"
     },
     {
-        "name": "Stand Up India Scheme - Variant 8",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "ed616339-b3c7-4540-9f00-a969ee9d501c"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 8",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "41829900-9aa1-4a5d-874a-45124013fb7f"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 8",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "a9758aaf-a3bb-44b8-81df-f5448c7efdc7"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 8",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "45e63892-4ebd-46d6-9d45-22bf9ef3bc89"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 9",
+        "name": "Mukhyamantri Yuva Udyami Vikas Abhiyan",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "purpose": "Interest‑ and collateral‑free loans for young entrepreneurs.",
+        "eligibility": "Women aged 18‑45 in Uttar Pradesh.",
+        "location": "Uttar Pradesh",
+        "amount_range": "Up to ₹5 Lakh",
+        "link": "https://msme.up.gov.in",
         "keywords": [
             "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "7121dafc-a2a2-4623-ad4f-ee400aa4d760"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 9",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
+            "interest-free",
             "women",
-            "SC",
-            "ST",
-            "startup"
+            "UP"
         ],
-        "id": "68161fc0-3ed4-4f87-97c1-198aca9f78bd"
+        "id": "16"
     },
     {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 9",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
+        "name": "Lakhpati Didi Programme",
+        "sector": "Rural Livelihood",
+        "purpose": "Revolving funds, SHG credit linkage and livelihood diversification.",
+        "eligibility": "Women SHG members in rural UP.",
+        "location": "Uttar Pradesh",
+        "amount_range": "Varies",
+        "link": "",
+        "keywords": [
+            "SHG",
+            "rural",
+            "women",
+            "fund"
+        ],
+        "id": "17"
+    },
+    {
+        "name": "One District One Product (ODOP)",
+        "sector": "Handicrafts / Agro",
+        "purpose": "Branding support and incentivised loans for district‑specific products.",
+        "eligibility": "Artisans, MSMEs in UP districts.",
+        "location": "Uttar Pradesh",
+        "amount_range": "Varies by scheme",
+        "link": "",
+        "keywords": [
+            "loan",
+            "subsidy",
+            "handicraft",
+            "women"
+        ],
+        "id": "18"
+    },
+    {
+        "name": "NSTFDC Adivasi Mahila Sashaktikaran Yojana (AMSY)",
+        "sector": "Tribal Women Empowerment",
+        "purpose": "Concessional loans up to 90% of project cost.",
+        "eligibility": "ST women applicants.",
         "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
+        "amount_range": "Projects up to ₹2 Lakh",
+        "link": "",
         "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
+            "loan",
+            "ST",
+            "women",
+            "tribal"
         ],
-        "id": "03637b20-d624-4999-affd-65ea392fe05f"
+        "id": "19"
     },
     {
-        "name": "KALIA Scheme (Odisha) - Variant 9",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
+        "name": "NSTFDC Micro Credit Scheme for SHGs",
+        "sector": "Self‑Help Groups",
+        "purpose": "Loans for ST‑women SHGs.",
+        "eligibility": "ST member SHGs.",
+        "location": "All India",
+        "amount_range": "Up to ₹5 Lakh per group",
+        "link": "",
         "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
+            "loan",
+            "SHG",
+            "tribal"
         ],
-        "id": "248cfe0b-50f6-4e84-9172-f153401fb9b5"
+        "id": "20"
     },
     {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 9",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
+        "name": "PMEGP",
+        "sector": "MSME / Micro Entrepreneurs",
+        "purpose": "Seed capital & margin subsidy for rural/urban micro enterprises.",
+        "eligibility": "Women entrepreneurs.",
+        "location": "All India",
+        "amount_range": "Up to ₹50 Lakh (manufacturing) / ₹25 Lakh (services)",
+        "link": "http://www.kvic.gov.in/",
         "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
+            "loan",
+            "subsidy",
+            "women",
+            "micro-enterprise"
         ],
-        "id": "de94181a-f101-40d9-a879-fff211d785ef"
+        "id": "21"
     },
     {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 10",
+        "name": "KVIC ISEC Scheme",
+        "sector": "Khadi & Village Industry",
+        "purpose": "Interest subsidy on bank loans for khadi units.",
+        "eligibility": "Khadi producers including women.",
+        "location": "All India",
+        "amount_range": "Loans for working/fixed capital",
+        "link": "http://www.kvic.gov.in/",
+        "keywords": [
+            "loan",
+            "subsidy",
+            "women",
+            "khadi"
+        ],
+        "id": "22"
+    },
+    {
+        "name": "Kudumbashree Mission",
+        "sector": "Poverty Alleviation",
+        "purpose": "Microloans & training via women SHGs.",
+        "eligibility": "All adult women in Kerala (replicable model).",
+        "location": "Kerala",
+        "amount_range": "Varies",
+        "link": "https://www.kudumbashree.org/",
+        "keywords": [
+            "loan",
+            "SHG",
+            "women",
+            "livelihood"
+        ],
+        "id": "23"
+    },
+    {
+        "name": "Women Entrepreneurship Platform (WEP)",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
+        "purpose": "One‑stop portal offering funding, mentoring, networking.",
+        "eligibility": "Women entrepreneurs across India.",
         "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "amount_range": "Varies",
+        "link": "https://www.startupindia.gov.in/women_entrepreneurs.html",
         "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
+            "mentorship",
+            "networking",
+            "funding",
+            "women"
         ],
-        "id": "a1426474-a23f-4fad-9a58-1a6e3ce66f00"
+        "id": "24"
     },
     {
-        "name": "Stand Up India Scheme - Variant 10",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
+        "name": "UP Startup Assistance (Startup India) – Events Reimbursement",
+        "sector": "Startup Ecosystem",
+        "purpose": "Reimbursement for participation in national/international events.",
+        "eligibility": "Women‑led startups registered in UP.",
+        "location": "Uttar Pradesh",
+        "amount_range": "₹50K for national; ₹100K for global",
+        "link": "",
+        "keywords": [
+            "grant",
+            "startup",
+            "women",
+            "UP"
+        ],
+        "id": "25"
+    },
+    {
+        "name": "Cent Kalyani Scheme",
+        "sector": "MSME",
+        "purpose": "Loans for capital & expansion.",
+        "eligibility": "Women entrepreneurs.",
         "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
+        "amount_range": "Up to ₹1 Crore",
+        "link": "",
+        "keywords": [
+            "loan",
+            "MSME",
+            "women"
+        ],
+        "id": "26"
+    },
+    {
+        "name": "Mahila Samman Scheme",
+        "sector": "Women Entrepreneurship",
+        "purpose": "Term loans up to ₹2 Crore for first‑time SC/ST & women entrepreneurs.",
+        "eligibility": "SC/ST & women first‑time entrepreneurs.",
+        "location": "All India",
+        "amount_range": "Up to ₹2 Crore",
+        "link": "",
         "keywords": [
             "loan",
             "women",
-            "SC",
-            "ST",
-            "startup"
+            "SC/ST"
         ],
-        "id": "1b893c6d-331f-4f29-8476-eff542a71e13"
+        "id": "27"
     },
     {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 10",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
+        "name": "Dena Shakti Scheme",
+        "sector": "MSME",
+        "purpose": "Concessional loans for women in key sectors.",
+        "eligibility": "Women entrepreneurs.",
+        "location": "All India (Bank of Baroda)",
+        "amount_range": "Up to ₹20 Lakh",
+        "link": "",
         "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
+            "loan",
+            "concessional",
+            "women"
         ],
-        "id": "10faa849-4b0e-4fd4-8190-3e1e6f7662c4"
+        "id": "28"
     },
     {
-        "name": "KALIA Scheme (Odisha) - Variant 10",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "65db0894-9581-43e4-83a6-c7beb509a75c"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 10",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "85bdaa26-5993-49de-ad61-f2d8c058c654"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 11",
+        "name": "Trade Related Entrepreneurship Assistance (TREAD)",
         "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
+        "purpose": "Promote women entrepreneurs via NGOs.",
+        "eligibility": "Women through NGOs.",
         "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
+        "amount_range": "Varies",
+        "link": "",
         "keywords": [
             "loan",
-            "entrepreneurship",
-            "business"
+            "training",
+            "women"
         ],
-        "id": "b2baff39-176f-47f2-a723-fc46b85a9ae0"
+        "id": "29"
     },
     {
-        "name": "Stand Up India Scheme - Variant 11",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
+        "name": "PM Credit Guarantee for MSMEs",
+        "sector": "MSME",
+        "purpose": "Guarantee cover for collateral‑free loans.",
+        "eligibility": "Women MSME units.",
         "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
+        "amount_range": "Guarantee cover up to ₹2 Crore",
+        "link": "",
         "keywords": [
-            "loan",
+            "credit guarantee",
             "women",
-            "SC",
-            "ST",
-            "startup"
+            "MSME"
         ],
-        "id": "56930ee7-5b7b-4ade-ab69-d9a04c471bc5"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 11",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "38e02a99-258e-4440-92d3-fc4985c5de12"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 11",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "be36630b-512a-4930-b815-caea5cce949b"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 11",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "20292ff2-b43d-48b4-8dbb-884b2cccd121"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 12",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "123f7a2d-ad27-43c4-8ae8-29765a2b245a"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 12",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "9bdf17b3-e778-4f0c-b203-18a5c3a302fd"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 12",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "29717bf9-4ef4-44f2-92b3-4282f14e2ae7"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 12",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "f518d862-98ba-4c4c-920f-fd80e34fa3db"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 12",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "b2d91c09-60b3-4269-8fd1-c5f1d4ecdf2e"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 13",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "8ba38b28-8b36-4d47-ae2a-546ed9354fb0"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 13",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "1c722ea7-29f6-43dd-9486-5c1e366a6db9"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 13",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "8b916995-9b20-4478-b9ac-64c21bd461c4"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 13",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "81ec6822-59ac-46f7-a8df-32d7832adce0"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 13",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "a100acf2-58db-48cd-b764-9f50aed24efa"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 14",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "01a807aa-c185-487c-968e-920a0e71fb30"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 14",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "beb07de1-635e-437c-92a8-5069b83f7737"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 14",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "38f5ca36-e32c-4f99-883b-b9a7ac479782"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 14",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "c44e036c-31a9-4c73-85a3-aa9c7dd754d2"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 14",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "c74bb74a-4c5e-431b-8953-18ccd9a9518a"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 15",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "00f83429-bde9-4631-a60c-37af0796afde"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 15",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "0516266a-6ea9-4d4f-b041-3cb16bd6c8ff"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 15",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "eccf3b93-a845-4bbe-b7aa-3b9b9dadf2ff"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 15",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "e9648535-ca70-4375-9f64-9fa858d5b5bb"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 15",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "fefb1d73-e5bb-4f66-aa5e-27b045016de7"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 16",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "2c1c5147-e85e-4276-82ce-748002f7d3d9"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 16",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "30b67dae-f652-41a7-b4c3-fd6b8b1bccd8"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 16",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "83549be7-74a1-4999-bfd6-f0388f8b4e56"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 16",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "6cc59357-88c2-47d4-876c-e66aab274c54"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 16",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "0e8ffee9-ef7a-4216-987f-cf77481879ca"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 17",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "9d29363f-e90b-4b3f-9f84-13e93a31d384"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 17",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "0c3c4abb-4e9d-4d70-8df5-d055057fe779"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 17",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "8d38e46e-ad40-4071-a689-7d9ebe24d49a"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 17",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "2a8dc8ea-846b-4f42-baa1-d791e61be45a"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 17",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "915b57b7-8929-4a20-858b-8c89ba8a5091"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 18",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "d6f1bde8-3aa0-46fc-a3e0-b30018aa0a00"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 18",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "836694d8-de54-4b09-b4f6-028c090535cf"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 18",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "3fcbd30e-8f6e-4eff-a374-f5f2cf859623"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 18",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "ff1fe903-aa40-431f-a372-34f061cbcb1d"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 18",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "c402b2d6-cfb6-47e1-b100-4d795ecb2381"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 19",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "5e10c0cc-2bb7-4acf-9897-2da250eaed2e"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 19",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "9652d2b3-b7a4-4a48-8b53-ac21bd2d1712"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 19",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "650a4767-aefb-4699-9521-c8bcd091c2c0"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 19",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "c9a92f07-4e4b-48b8-8711-a3bbed0f5495"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 19",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "36672063-faf0-4f86-8c5d-fb3a56da91e3"
-    },
-    {
-        "name": "Pradhan Mantri Mudra Yojana (PMMY) - Variant 20",
-        "sector": "Entrepreneurship",
-        "purpose": "Provide loans to non-corporate, non-farm small/micro enterprises.",
-        "eligibility": "Any Indian citizen with a business plan for a non-farm sector income-generating activity.",
-        "location": "All India",
-        "amount_range": "Up to ₹10 Lakhs",
-        "link": "https://www.mudra.org.in",
-        "keywords": [
-            "loan",
-            "entrepreneurship",
-            "business"
-        ],
-        "id": "7c40dd15-9155-474b-bb66-3a99eb3225a9"
-    },
-    {
-        "name": "Stand Up India Scheme - Variant 20",
-        "sector": "Women Empowerment",
-        "purpose": "Facilitate bank loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
-        "eligibility": "SC/ST or woman entrepreneur above 18 years of age.",
-        "location": "All India",
-        "amount_range": "₹10 Lakhs - ₹1 Crore",
-        "link": "https://www.standupmitra.in",
-        "keywords": [
-            "loan",
-            "women",
-            "SC",
-            "ST",
-            "startup"
-        ],
-        "id": "39cc99f1-2961-463a-b55a-b6c936b75032"
-    },
-    {
-        "name": "National Means-cum-Merit Scholarship Scheme (NMMSS) - Variant 20",
-        "sector": "Education",
-        "purpose": "Provide scholarships to meritorious students of economically weaker sections.",
-        "eligibility": "Students of class IX with parental income less than ₹1.5 lakh per annum.",
-        "location": "All India",
-        "amount_range": "₹12,000 per annum",
-        "link": "https://scholarships.gov.in",
-        "keywords": [
-            "education",
-            "scholarship",
-            "merit",
-            "school"
-        ],
-        "id": "968e820a-7162-451c-8816-954d34161d3a"
-    },
-    {
-        "name": "KALIA Scheme (Odisha) - Variant 20",
-        "sector": "Agriculture",
-        "purpose": "Financial assistance to small and marginal farmers.",
-        "eligibility": "Small and marginal farmers of Odisha.",
-        "location": "Odisha",
-        "amount_range": "₹10,000 per year",
-        "link": "https://kalia.odisha.gov.in",
-        "keywords": [
-            "farming",
-            "assistance",
-            "Odisha"
-        ],
-        "id": "76388e8e-b7bb-42bd-9e3b-63cb6e9783ff"
-    },
-    {
-        "name": "Telangana Dalit Bandhu Scheme - Variant 20",
-        "sector": "SC/ST Welfare",
-        "purpose": "Support Dalit families through direct cash transfer.",
-        "eligibility": "Dalit families selected under the scheme.",
-        "location": "Telangana",
-        "amount_range": "₹10 Lakhs",
-        "link": "https://dalitbandhu.telangana.gov.in",
-        "keywords": [
-            "dalit",
-            "cash grant",
-            "welfare"
-        ],
-        "id": "88268328-f8ea-401d-959b-eb89785548c8"
+        "id": "30"
     }
 ]
