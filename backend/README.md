@@ -37,7 +37,7 @@ YojanaAI is an OpenAI-powered FastAPI backend that helps users discover relevant
    ```bash
    uvicorn main:app --reload
    ```
-   
+
 5. **Test the API**
    ```bash
    curl -X POST "http://127.0.0.1:8000/recommend" \
@@ -62,4 +62,4 @@ YojanaAI is an OpenAI-powered FastAPI backend that helps users discover relevant
 - Rate limiting is enforced via Redis
 
 ## 🤝 Contributing
-See [../../CONTRIBUTIONS.md](../../CONTRIBUTIONS.md) for guidelines. 
+See [../../CONTRIBUTIONS.md](../CONTRIBUTIONS.md) for guidelines. 

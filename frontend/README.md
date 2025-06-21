@@ -45,4 +45,4 @@ YojanaAI is a modern Angular app that lets users chat with an AI assistant to di
 - All UI is reactive using Angular signals
 
 ## 🤝 Contributing
-See [../../CONTRIBUTIONS.md](../../CONTRIBUTIONS.md) for guidelines.
+See [../../CONTRIBUTIONS.md](../CONTRIBUTIONS.md) for guidelines.
