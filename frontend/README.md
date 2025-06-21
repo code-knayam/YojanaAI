@@ -32,8 +32,6 @@ YojanaAI is a modern Angular app that lets users chat with an AI assistant to di
 ## ☁️ Deployment
 - **Production:**
   - On every push to `main`, the app is automatically built and deployed to Firebase Hosting via GitHub Actions ([see workflow](../.github/workflows/firebase-hosting-merge.yml)).
-- **Preview Deployments:**
-  - On every pull request, a preview build is deployed to a temporary Firebase Hosting channel ([see workflow](../.github/workflows/firebase-hosting-pull-request.yml)).
 - **Manual:**
   - Build for production:
     ```bash

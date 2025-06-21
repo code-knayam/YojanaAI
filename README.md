@@ -25,7 +25,6 @@ For detailed setup and usage instructions, see:
 ## ☁️ Deployment
 - **Frontend:**
   - On every push to `main`, the Angular app is automatically built and deployed to Firebase Hosting via GitHub Actions ([workflow](.github/workflows/firebase-hosting-merge.yml)).
-  - On every pull request, a preview build is deployed to a temporary Firebase Hosting channel ([workflow](.github/workflows/firebase-hosting-pull-request.yml)).
 - **Backend:** See `backend/render.yaml` for Render.com config
 - **Manual:** See the respective README files for manual deployment steps
 
