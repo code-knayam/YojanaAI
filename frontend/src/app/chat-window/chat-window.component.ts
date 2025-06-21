@@ -1,0 +1,125 @@
+import {
+    Component,
+    signal,
+    effect,
+    inject,
+    ResourceStatus,
+    viewChild,
+    ElementRef,
+    Signal
+} from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { ApiService } from '../services/api.service';
+import { httpResource } from '@angular/common/http';
+import { MessageService } from '../services/message.service';
+import { ChatMessage, ChatResponse, Role } from '../chat';
+import { MESSAGES } from '../messages';
+import { UserService } from '../services/user.service';
+
+@Component({
+    selector: 'app-chat-window',
+    templateUrl: './chat-window.component.html',
+    styleUrls: ['./chat-window.component.scss'],
+    imports: [FormsModule],
+})
+export class ChatWindowComponent {
+    readonly ROLE = Role;
+
+    userService = inject(UserService);
+    messageService = inject(MessageService);
+    private api = inject(ApiService);
+
+    messages = signal<ChatMessage[]>([
+        this.messageService.getWelcomMessage()
+    ]);
+
+    userInput = signal('');
+    conversationHistory = signal<string[]>([]);
+
+    private trigger = signal(0);
+    private _lastInput = '';
+
+    chatResource = httpResource<ChatResponse>(() => {
+        if (this.trigger() === 0) return;
+
+        return this.api.getRecommendations(this.conversationHistory(), this._lastInput);
+    });
+
+    messagesContainer = viewChild<ElementRef<HTMLDivElement>>('messagesContainer');
+
+    constructor() {
+        effect(() => {
+            const status = this.chatResource.status();
+
+            if (status === ResourceStatus.Loading) return;
+
+            if (status === ResourceStatus.Error) {
+                this.messages.update((msgs) => [
+                    ...msgs,
+                    this.messageService.createNewMessage(Role.AI, MESSAGES.ERROR_MESSAGE)
+                ]);
+
+                this.userInput.set('');
+                this.trigger.set(0);
+                return;
+            }
+
+            const value = this.chatResource.value();
+
+            if (this.trigger() === 0 || !value) return;
+
+            this.handleApiResponse(value);
+        });
+
+        effect(() => {
+            this.messages();
+            setTimeout(() => {
+                const container = this.messagesContainer();
+                if (container?.nativeElement) {
+                    (container.nativeElement as HTMLDivElement).scrollTop = (container.nativeElement as HTMLDivElement).scrollHeight;
+                }
+            }, 0);
+        });
+    }
+
+    private handleApiResponse(value: ChatResponse): void {
+        const replies: ChatMessage[] = [];
+
+        this.conversationHistory.update((hist) => [...hist, this._lastInput]);
+
+        if (value.followup_needed) {
+            if (value.results && value.results.length > 0) {
+                replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.RECOMMENDATIONS));
+            }
+
+            replies.push(this.messageService.createNewMessage(Role.AI, value.message))
+        } else if (value.results?.length || value.message) {
+            replies.push(this.messageService.createNewMessage(Role.AI, value.message ?? MESSAGES.MATCHING));
+        } else {
+            replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.ERROR_MESSAGE))
+        }
+
+        this.messages.update((msgs) => [
+            ...msgs,
+            ...replies,
+        ]);
+
+        this.userInput.set('');
+        this.trigger.set(0);
+    }
+
+    get loading() {
+        return this.chatResource.isLoading();
+    }
+
+    sendMessage() {
+        const input = this.userInput().trim();
+        if (!input) return;
+        const userMsg: ChatMessage = this.messageService.createNewMessage(Role.User, input)
+
+        this.messages.update((msgs) => [...msgs, userMsg]);
+        this.userInput.set('');
+        this._lastInput = input;
+        this.trigger.update((v) => v + 1);
+    }
+}

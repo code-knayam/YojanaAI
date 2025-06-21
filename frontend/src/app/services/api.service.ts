@@ -5,7 +5,6 @@ export class ApiService {
     private baseUrl: string;
 
     constructor() {
-        // Switch base URL based on environment
         if (window.location.hostname === 'localhost') {
             this.baseUrl = 'http://localhost:8000';
         } else {
@@ -13,14 +12,20 @@ export class ApiService {
         }
     }
 
-    createRequest(endpoint: string, body: any) {
-        // Ensure endpoint starts with '/'
-        const url = this.baseUrl + (endpoint.startsWith('/') ? endpoint : '/' + endpoint);
+    private createRequest(endpoint: string, method: string, body: any) {
+        const url = `${this.baseUrl}/${endpoint}`;
         return {
             url,
-            method: 'POST',
+            method,
             body,
             headers: { 'Content-Type': 'application/json' }
         };
+    }
+
+    getRecommendations(history: string[], message: string) {
+        return this.createRequest('recommend', 'POST', {
+            conversation_history: history,
+            current_input: message,
+        })
     }
 } 

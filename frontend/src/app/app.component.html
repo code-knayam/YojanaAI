@@ -1,37 +1,26 @@
+@if(isLoading()) {
+<div class="app-loader">
+  <div class="loader-content">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+</div>
+}
+
 <div class="yojana-header">
   <div class="logo">Yojana <span>AI</span></div>
-</div>
-<div class="chat-container">
-  <div class="chat-messages">
-    @for (message of messages(); track $index) {
-    <div class="chat-message" [class]="{ 'user': message.role === 'user', 'ai': message.role === 'ai' }">
-      <div class="message-content">
-        @if(message.role === 'ai' && message.schemes?.length) {
-        <div class="ai-response">{{ message.text }}</div>
-        <div class="schemes-list schemes-row">
-          @for (scheme of message.schemes; track $index) {
-          <div class="scheme-card">
-            <div class="scheme-title">{{ scheme.name }}</div>
-            <div class="scheme-reason">{{ scheme.reason }}</div>
-            <a class="scheme-link" [href]="scheme.link" target="_blank">View Details</a>
-          </div>
-          }
-        </div>
-        }
-        @if(!message.schemes?.length) {
-        {{ message.text }}
-        }
-      </div>
-    </div>
-    }
-    @if(loading) {
-    <div class="chat-message ai loading">
-      <div class="message-content">Yojana AI is thinking...</div>
-    </div>
-    }
+  @if(userService.user() && userService.photoURL) {
+  <div class="auth-container">
+    <img class="user-avatar" [src]="userService.photoURL" [alt]="userService.displayName" />
+    <button class="logout-btn" (click)="logout()" title="Logout">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 17L21 12L16 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M21 12H9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M12 19C7.58172 19 4 15.4183 4 11C4 6.58172 7.58172 3 12 3C13.6569 3 15.1566 3.63214 16.3137 4.68629"
+          stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </button>
   </div>
-  <form class="chat-input" (ngSubmit)="sendMessage()">
-    <input [(ngModel)]="userInput" name="userInput" required placeholder="Type your query..." autocomplete="off" />
-    <button type="submit" [disabled]="loading || !userInput().trim()">Send</button>
-  </form>
+  }
 </div>
+<router-outlet></router-outlet>

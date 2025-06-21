@@ -1,4 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+:root {
+    --primary-bg: #23272f;
+    --secondary-bg: #343541;
+    --accent: #10a37f;
+    --accent-hover: #0d8a6a;
+    --text: #ececf1;
+    --text-secondary: #b4bcd0;
+    --border: #444654;
+}
+
+body,
+html {
+    background: var(--primary-bg);
+    color: var(--text);
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-hover);
 }

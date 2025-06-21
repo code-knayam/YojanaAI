@@ -1,0 +1,104 @@
+.login-container {
+    max-width: 350px;
+    margin: 4rem auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+    background: var(--secondary-bg);
+    border-radius: 1.2rem;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--text);
+    font-weight: 800;
+    letter-spacing: 0.01em;
+}
+
+.login-container input {
+    padding: 0.9rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--border);
+    font-size: 1.1rem;
+    outline: none;
+    margin-bottom: 1rem;
+    background: var(--primary-bg);
+    color: var(--text);
+    transition: border 0.2s;
+}
+
+.login-container button {
+    background: var(--accent);
+    color: var(--text);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(16, 163, 127, 0.08);
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.login-container button:hover {
+    background: var(--accent-hover);
+}
+
+.login-container .error {
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.08);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.login-container a {
+    color: var(--accent);
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.login-container a:hover {
+    color: var(--accent-hover);
+}
+
+.welcome-message {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.08rem;
+    margin-bottom: 0.5rem;
+    margin-top: -0.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.google-logo {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.btn-text {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.08rem;
+    letter-spacing: 0.01em;
+}
