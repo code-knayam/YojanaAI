@@ -1,59 +1,48 @@
-# Frontend
+# YojanaAI Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+YojanaAI is a modern Angular app that lets users chat with an AI assistant to discover government schemes. It features a ChatGPT-inspired UI, Google sign-in, and real-time recommendations from the backend.
 
-## Development server
+## 🏗️ Architecture
+- **Angular 19**: Modern, standalone component-based frontend
+- **Firebase Auth**: Google sign-in, route protection, and token management
+- **Signals**: For reactive state and UI updates
+- **API Service**: Switches between local and production backend
+- **Loader Service**: Global app loading state
+- **Chat Window**: Signal-based, auto-scrolls, supports AI and user messages, and scheme cards
+- **Dark Theme**: ChatGPT-inspired with green accents
 
-To start a local development server, run:
+## 📂 File Structure
+- `src/app/` — Main app code (components, services, guards)
+- `src/styles.scss` — Global theme and styles
+- `angular.json` — Angular CLI config
+- `package.json` — Scripts and dependencies
 
-```bash
-ng serve
-```
+## 🚀 Local Development
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+2. **Run the app**
+   ```bash
+   npm start
+   ```
+   The app will be available at `http://localhost:4200`.
 
-## Code scaffolding
+## ☁️ Deployment
+- Build for production:
+  ```bash
+  npm run build
+  ```
+- Deploy the contents of `dist/frontend` to your static host (e.g., Vercel, Netlify, Firebase Hosting)
+- The app auto-detects backend URL (localhost or production)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧠 How It Works
+- Users sign in with Google (Firebase Auth)
+- Auth tokens are attached to API requests via an HTTP interceptor
+- Chat window sends conversation history to backend for recommendations
+- Loader service manages global loading state
+- All UI is reactive using Angular signals
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🤝 Contributing
+See [../../CONTRIBUTIONS.md](../../CONTRIBUTIONS.md) for guidelines.

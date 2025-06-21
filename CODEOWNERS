@@ -1,0 +1,4 @@
+# CODEOWNERS for YojanaAI
+
+/main @code-knayam
+*    @code-knayam 
