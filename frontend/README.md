@@ -30,11 +30,16 @@ YojanaAI is a modern Angular app that lets users chat with an AI assistant to di
    The app will be available at `http://localhost:4200`.
 
 ## ☁️ Deployment
-- Build for production:
-  ```bash
-  npm run build
-  ```
-- Deploy the contents of `dist/frontend` to your static host (e.g., Vercel, Netlify, Firebase Hosting)
+- **Production:**
+  - On every push to `main`, the app is automatically built and deployed to Firebase Hosting via GitHub Actions ([see workflow](../.github/workflows/firebase-hosting-merge.yml)).
+- **Preview Deployments:**
+  - On every pull request, a preview build is deployed to a temporary Firebase Hosting channel ([see workflow](../.github/workflows/firebase-hosting-pull-request.yml)).
+- **Manual:**
+  - Build for production:
+    ```bash
+    npm run build
+    ```
+  - Deploy the contents of `dist/frontend` to your static host or Firebase Hosting.
 - The app auto-detects backend URL (localhost or production)
 
 ## 🧠 How It Works

@@ -23,8 +23,11 @@ For detailed setup and usage instructions, see:
 - [frontend/README.md](frontend/README.md)
 
 ## ☁️ Deployment
-- Backend: See `backend/render.yaml` for Render.com config
-- Frontend: Build and deploy `dist/frontend` to your static host
+- **Frontend:**
+  - On every push to `main`, the Angular app is automatically built and deployed to Firebase Hosting via GitHub Actions ([workflow](.github/workflows/firebase-hosting-merge.yml)).
+  - On every pull request, a preview build is deployed to a temporary Firebase Hosting channel ([workflow](.github/workflows/firebase-hosting-pull-request.yml)).
+- **Backend:** See `backend/render.yaml` for Render.com config
+- **Manual:** See the respective README files for manual deployment steps
 
 ## 🤝 Open Source & Contributing
 We welcome contributions! See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for how to get started.
