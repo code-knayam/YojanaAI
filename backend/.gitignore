@@ -29,7 +29,6 @@ logs/
 
 # Cache files
 .cache/
-*.sqlite3
 
 # Build
 dist/
