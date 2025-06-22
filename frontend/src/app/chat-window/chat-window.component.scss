@@ -185,9 +185,9 @@
         border-radius: 0;
     }
 
-    // .chat-messages {
-    //     padding: 0;
-    // }
+    .chat-messages {
+        padding: 1rem;
+    }
 
     // .chat-message.ai .message-content {
     //     padding: 0 1rem;
@@ -195,6 +195,23 @@
 
     .chat-input {
         padding: 1rem;
+        gap: 0.6rem;
+    }
+
+    .chat-input {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        padding: 0.5rem;
+        border-radius: 0;
+        background: var(--secondary-bg);
+        z-index: 200;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+
+        button {
+            padding: 0.5rem 1rem;
+        }
     }
 }
 
