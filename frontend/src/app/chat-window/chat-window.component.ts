@@ -54,9 +54,14 @@ export class ChatWindowComponent {
             if (status === ResourceStatus.Loading) return;
 
             if (status === ResourceStatus.Error) {
+                const error = this.chatResource.error();
+                let errorMsg = MESSAGES.ERROR_MESSAGE;
+                if (error && typeof error === 'object' && 'status' in error && error.status === 429) {
+                    errorMsg = 'You have reached your usage limit. Please try again later.';
+                }
                 this.messages.update((msgs) => [
                     ...msgs,
-                    this.messageService.createNewMessage(Role.AI, MESSAGES.ERROR_MESSAGE)
+                    this.messageService.createNewMessage(Role.AI, errorMsg)
                 ]);
 
                 this.userInput.set('');
@@ -89,12 +94,12 @@ export class ChatWindowComponent {
 
         if (value.followup_needed) {
             if (value.results && value.results.length > 0) {
-                replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.RECOMMENDATIONS));
+                replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.RECOMMENDATIONS, value.results));
             }
 
             replies.push(this.messageService.createNewMessage(Role.AI, value.message))
         } else if (value.results?.length || value.message) {
-            replies.push(this.messageService.createNewMessage(Role.AI, value.message ?? MESSAGES.MATCHING));
+            replies.push(this.messageService.createNewMessage(Role.AI, value.message ?? MESSAGES.MATCHING, value.results));
         } else {
             replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.ERROR_MESSAGE))
         }

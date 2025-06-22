@@ -7,28 +7,28 @@ from typing import List, Optional
 from service.recommendation import get_scheme_response
 from core.embedding_search import index_schemes
 from core.utils import load_schemes
-# from contextlib import asynccontextmanager
+from contextlib import asynccontextmanager
 from agents import set_tracing_export_api_key
-# import redis.asyncio as redis
-# from fastapi_limiter import FastAPILimiter
-# from fastapi_limiter.depends import RateLimiter
+import redis.asyncio as redis
+from fastapi_limiter import FastAPILimiter
+from fastapi_limiter.depends import RateLimiter
 from core.firebase_auth import verify_firebase_token
 from core.settings import settings
 
 set_tracing_export_api_key(settings.OPENAI_API_KEY)
 
-# @asynccontextmanager
-# async def lifespan(app: FastAPI):
-#     redis_conn = redis.from_url(settings.REDIS_URL, encoding="utf8", decode_responses=True)
-#     await FastAPILimiter.init(redis_conn)
-#     yield
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    redis_conn = redis.from_url(settings.REDIS_URL, encoding="utf8", decode_responses=True)
+    await FastAPILimiter.init(redis_conn)
+    yield
     
 # FastAPI app setup
-app = FastAPI()
+app = FastAPI(lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://yojanaai.web.app"],
+    allow_origins=["https://yojanaai.web.app", "http://localhost:4200"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Authorization", "Content-Type"],
@@ -40,7 +40,10 @@ class SchemeQuery(BaseModel):
     current_input: Optional[str] = ""
 
 # API endpoint
-@app.post("/recommend")
+@app.post("/recommend", dependencies=[
+    Depends(RateLimiter(times=5, seconds=60)),       # 5 requests per minute
+    Depends(RateLimiter(times=20, seconds=86400))    # 20 requests per day
+])
 async def refine_endpoint(payload: SchemeQuery, user=Depends(verify_firebase_token)):
     try:        
         return await get_scheme_response(payload.conversation_history, payload.current_input)
@@ -48,7 +51,9 @@ async def refine_endpoint(payload: SchemeQuery, user=Depends(verify_firebase_tok
         raise HTTPException(status_code=200, detail=str(e))
 
 # Re-indexing endpoint
-@app.post("/reindex")
+@app.post("/reindex", dependencies=[
+    Depends(RateLimiter(times=1, seconds=86400))    # 1 request per day
+])
 async def trigger_reindex(user=Depends(verify_firebase_token)):
     try:
         schemes = load_schemes()
