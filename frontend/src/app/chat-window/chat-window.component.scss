@@ -197,3 +197,42 @@
         padding: 1rem;
     }
 }
+
+.dot-anim {
+    display: inline-block;
+    margin-left: 2px;
+
+    .dot {
+        display: inline-block;
+        width: 0.5em;
+        height: 0.5em;
+        margin: 0 1px;
+        border-radius: 50%;
+        background: var(--accent);
+        opacity: 0.7;
+        animation: dance 1.2s infinite;
+    }
+
+    .dot:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .dot:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+}
+
+@keyframes dance {
+
+    0%,
+    80%,
+    100% {
+        transform: translateY(0);
+        opacity: 0.7;
+    }
+
+    40% {
+        transform: translateY(-0.4em);
+        opacity: 1;
+    }
+}
