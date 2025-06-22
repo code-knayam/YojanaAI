@@ -1,44 +1,47 @@
 # main.py
 import os
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 from service.recommendation import get_scheme_response
 from core.embedding_search import index_schemes
 from core.utils import load_schemes
-from contextlib import asynccontextmanager
+# from contextlib import asynccontextmanager
 from agents import set_tracing_export_api_key
+# import redis.asyncio as redis
+# from fastapi_limiter import FastAPILimiter
+# from fastapi_limiter.depends import RateLimiter
+from core.firebase_auth import verify_firebase_token
+from core.settings import settings
 
-# os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
-set_tracing_export_api_key(os.getenv("OPENAI_API_KEY"))
+set_tracing_export_api_key(settings.OPENAI_API_KEY)
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    schemes = load_schemes()
-    await index_schemes(schemes)
-    yield
+# @asynccontextmanager
+# async def lifespan(app: FastAPI):
+#     redis_conn = redis.from_url(settings.REDIS_URL, encoding="utf8", decode_responses=True)
+#     await FastAPILimiter.init(redis_conn)
+#     yield
     
 # FastAPI app setup
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://yojanaai.web.app"],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type"],
 )
 
 
-# Request models
 class SchemeQuery(BaseModel):
     conversation_history: List[str]
     current_input: Optional[str] = ""
 
 # API endpoint
 @app.post("/recommend")
-async def refine_endpoint(payload: SchemeQuery):
+async def refine_endpoint(payload: SchemeQuery, user=Depends(verify_firebase_token)):
     try:        
         return await get_scheme_response(payload.conversation_history, payload.current_input)
     except Exception as e:
@@ -46,7 +49,7 @@ async def refine_endpoint(payload: SchemeQuery):
 
 # Re-indexing endpoint
 @app.post("/reindex")
-async def trigger_reindex():
+async def trigger_reindex(user=Depends(verify_firebase_token)):
     try:
         schemes = load_schemes()
         await index_schemes(schemes, force_reindex=True)
@@ -54,6 +57,7 @@ async def trigger_reindex():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+# Health
 @app.get("/health")
 async def health_check():
     return {"status": "OK"}

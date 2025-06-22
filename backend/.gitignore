@@ -37,5 +37,4 @@ build/
 *.egg-info/
 
 # ChromaDB persistent store
-chroma_db/
 ch

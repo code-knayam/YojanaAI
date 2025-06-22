@@ -5,40 +5,29 @@ import json
 from typing import List, Dict
 import chromadb
 from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
+from openai import OpenAI
 
-PERSIST_DIR = "/app/chroma_db"
+PERSIST_DIR = "./chroma_db"
 SCHEMES_COLLECTION = "schemes"
 
-# Load local embedding model
-def get_model():
-    if not hasattr(get_model, "model"):
-        get_model.model = SentenceTransformer("all-MiniLM-L6-v2")
-    return get_model.model
+# Create Chroma client and collection
+chroma_client = chromadb.PersistentClient(path=PERSIST_DIR)
 
-# Shared Chroma client with persistence
-chroma_client = chromadb.Client(Settings(
-    anonymized_telemetry=False,
-    persist_directory=PERSIST_DIR
-))
+# Fetch or create collection
+_collection = None
 
-# Get or create persistent Chroma collection
 def get_collection():
-    try:
-        return chroma_client.get_collection(name=SCHEMES_COLLECTION)
-    except:
-        return chroma_client.create_collection(name=SCHEMES_COLLECTION)
-
-# Index schemes and persist (only on demand)
-async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = False):
-    if not force_reindex:
+    global _collection
+    if _collection is None:
         try:
-            collection = chroma_client.get_collection(name=SCHEMES_COLLECTION)
-            if len(collection.get()["ids"]) > 0:
-                print("Embeddings already exist. Skipping re-indexing.")
-                return
+            _collection = chroma_client.get_collection(name=SCHEMES_COLLECTION)
         except:
-            pass
+            _collection = chroma_client.create_collection(name=SCHEMES_COLLECTION)
+    return _collection
+
+# Rebuild index from scratch using OpenAI embeddings
+async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = False):
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     if force_reindex:
         try:
@@ -49,30 +38,42 @@ async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = Fal
     collection = chroma_client.create_collection(name=SCHEMES_COLLECTION)
 
     for scheme in schemes:
-        # Flatten any non-primitive values in metadata
+        scheme_id = scheme.get("id") or str(uuid.uuid4())
+
         if isinstance(scheme.get("keywords"), list):
             scheme["keywords"] = ", ".join(scheme["keywords"])
 
-        content = f"{scheme['name']} - {scheme['purpose']} - {scheme['eligibility']} - {scheme['sector']}"
-        model = get_model()
-        
-        embedding = model.encode(content).tolist()
+        text = " | ".join([
+            scheme.get("name", ""),
+            scheme.get("purpose", ""),
+            scheme.get("eligibility", ""),
+            scheme.get("sector", "")
+        ])
+
+        response = client.embeddings.create(
+            input=text,
+            model="text-embedding-3-small"
+        )
+        embedding = response.data[0].embedding
 
         collection.add(
-            ids=[scheme.get("id") or str(uuid.uuid4())],
+            ids=[scheme_id],
             embeddings=[embedding],
             metadatas=[scheme]
         )
 
-    # Persist is now handled automatically if persist_directory is set
-    print("Embeddings created and stored.")
+    print("Embeddings indexed and stored successfully.")
 
-# Query schemes by semantic similarity
+# Semantic search using OpenAI embeddings
 async def query_schemes(user_query: str, top_k: int = 10) -> List[Dict[str, any]]:
     collection = get_collection()
-    model = get_model()
-    
-    embedding = model.encode(user_query).tolist()
 
-    result = collection.query(query_embeddings=[embedding], n_results=top_k)
-    return result["metadatas"][0]
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    response = client.embeddings.create(
+        input=user_query,
+        model="text-embedding-3-small"
+    )
+
+    query_embedding = response.data[0].embedding
+    result = collection.query(query_embeddings=[query_embedding], n_results=top_k)
+    return result.get("metadatas", [[]])[0]
