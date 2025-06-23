@@ -5,8 +5,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 from service.recommendation import get_scheme_response
+from service.reindex import load_schemes
 from core.embedding_search import index_schemes
-from core.utils import load_schemes
 from contextlib import asynccontextmanager
 from agents import set_tracing_export_api_key
 import redis.asyncio as redis
@@ -42,7 +42,7 @@ class SchemeQuery(BaseModel):
 # API endpoint
 @app.post("/recommend", dependencies=[
     Depends(RateLimiter(times=5, seconds=60)),       # 5 requests per minute
-    Depends(RateLimiter(times=20, seconds=86400))    # 20 requests per day
+    Depends(RateLimiter(times=50, seconds=86400))    # 20 requests per day
 ])
 async def refine_endpoint(payload: SchemeQuery, user=Depends(verify_firebase_token)):
     try:        

@@ -13,7 +13,6 @@ Return the final response strictly as a JSON object in the following format:
 
 {
   "message": "<A short sentence summarizing the match>",
-  "too_vague": true/false,
   "schemes": [
     {
       "name": "<Scheme Name>",
@@ -28,20 +27,28 @@ Only return valid JSON. Do not include markdown formatting or explanation outsid
 """
 
 DECISION_PROMPT = """
-You are a smart assistant helping users navigate government schemes.
-If the list of returned schemes is too broad or unclear, propose a follow-up question to better understand the user's intent.
-
-Use this format:
-- If more clarity is needed: return a concise follow-up question as a string.
-- If no follow-up is needed: return null.
-
-The follow-up should help narrow the match by asking about:
+You are a scheme assistant evaluating if a user's query contains enough detail.
+Your system matches schemes using fields like: 
+- name
+- sector
+- purpose
+- eligibility
 - location
-- age or income
-- business or personal use
-- specific sector (education, agriculture, startup, etc)
+- amount_range
 
-Only return the question or null — no JSON or explanation.
+If the user query is too broad or lacks clarity, generate a **single follow-up question** that helps gather all the key details at once. Your question should group all the missing pieces into one and ask the user to reply to all of them together.
+
+1. If more information is needed to give accurate recommendations (followup_needed).
+2. If we can still show some preliminary schemes (show_recommendations) if user has already given major info like location, type of scheme they need and major filtering criteria. We can still show recommendations even if more follow up questions are needed for more filtering
+3. Frame one combined follow-up question to gather all remaining required details.
+
+{
+  "followup_needed": true | false,
+  "show_recommendations": true | false,
+  "followup_question": "Ask your grouped follow-up question here if needed, else return null"
+}
+
+Your goal is to reduce back-and-forth. Be specific, helpful, and warm. If the user's input is already detailed enough to match schemes accurately, DONT DRAG THE CONVERSTAION. DON'T KEEP ON ASKING QUESTIONS IF ALREADY 2-3 HAVE BEEN ANSWERED. DONT ASK MORE THAN 3 QUESTIONS.
 """
 
 def build_prompt(query: str, schemes: list) -> str:
@@ -66,14 +73,7 @@ Only return valid JSON, no extra commentary.
 
 def build_decision_prompt(query: str, matches: list) -> str:
     return f"""
-You are an assistant helping narrow down schemes.
+You are a scheme assistant evaluating if a user's query contains enough detail.
 
 Conversation Context: \"{query}\"
-
-Top Matching Schemes:
-{json.dumps(matches[:10], indent=2)}
-
-If more information is needed to refine the results, return a single follow-up question as plain text.
-
-If not, return the word \"null\".
 """
