@@ -46,8 +46,8 @@
 .yojana-header {
     background: var(--secondary-bg);
     color: var(--text);
-    padding: 1.5rem 2rem;
-    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -67,8 +67,8 @@
 }
 
 .user-avatar {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--accent);

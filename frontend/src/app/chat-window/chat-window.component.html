@@ -38,7 +38,8 @@
         }
     </div>
     <form class="chat-input" (ngSubmit)="sendMessage()">
-        <input [(ngModel)]="userInput" name="userInput" required placeholder="Type your query..." autocomplete="off" />
-        <button type="submit" [disabled]="loading || !userInput().trim()">Send</button>
+        <textarea [(ngModel)]="userInput" name="userInput" required placeholder="Type your query..." autocomplete="off"
+            rows="2"></textarea>
+        <button type="submit" [disabled]="loading || !userInput().trim()">&#x23CE;</button>
     </form>
 </div>
