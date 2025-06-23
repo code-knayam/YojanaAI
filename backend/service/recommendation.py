@@ -1,4 +1,3 @@
-# service/recommendation.py
 import json
 import logging
 from typing import List, Dict, Union, Tuple

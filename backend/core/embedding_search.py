@@ -1,4 +1,3 @@
-# core/embedding_search.py
 import uuid
 import os
 import json

@@ -1,4 +1,3 @@
-# core/prompts.py
 import json
 
 SYSTEM_PROMPT = """
