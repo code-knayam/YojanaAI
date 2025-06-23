@@ -19,7 +19,7 @@
                 }
 
                 @if(!message.schemes?.length && message.role === ROLE.User) {
-                <span>{{message.message}}</span>
+                <span [innerHTML]="formatUserMessage(message.message)"></span>
                 }
             </div>
         </div>

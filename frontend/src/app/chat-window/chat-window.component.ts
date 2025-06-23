@@ -15,6 +15,7 @@ import { MessageService } from '../services/message.service';
 import { ChatMessage, ChatResponse, Role } from '../chat';
 import { MESSAGES } from '../messages';
 import { UserService } from '../services/user.service';
+import { SafeHtml } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-chat-window',
@@ -126,5 +127,11 @@ export class ChatWindowComponent {
         this.userInput.set('');
         this._lastInput = input;
         this.trigger.update((v) => v + 1);
+    }
+
+    formatUserMessage(message: string | SafeHtml | null): string {
+        if (!message) return '';
+        if (typeof message !== 'string') return '';
+        return message.replace(/&#10;/g, '<br>');
     }
 }
