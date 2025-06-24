@@ -1,4 +1,4 @@
-# YojanaAI Backend
+# YojanaAI Backend v0.1.0
 
 YojanaAI is an OpenAI-powered FastAPI backend that helps users discover relevant government schemes in India. It uses advanced language models for query understanding and semantic search, and a local ChromaDB vector database for fast, accurate recommendations.
 

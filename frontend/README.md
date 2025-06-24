@@ -1,4 +1,4 @@
-# YojanaAI Frontend
+# YojanaAI Frontend v0.1.0
 
 YojanaAI is a modern Angular app that lets users chat with an AI assistant to discover government schemes. It features a ChatGPT-inspired UI, Google sign-in, and real-time recommendations from the backend.
 

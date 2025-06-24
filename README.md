@@ -32,4 +32,4 @@ For detailed setup and usage instructions, see:
 We welcome contributions! See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for how to get started.
 
 ## 📄 License
-MIT (see [LICENSE.md](LICENSE.md)) 
+MIT (see [LICENSE.md](LICENSE.md))
