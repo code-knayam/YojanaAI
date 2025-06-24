@@ -33,3 +33,5 @@ We welcome contributions! See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for how to ge
 
 ## 📄 License
 MIT (see [LICENSE.md](LICENSE.md)) 
+## Test
+This change triggers the PR build workflow.
