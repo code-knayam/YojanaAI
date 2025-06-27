@@ -41,7 +41,6 @@ async function scrapeData() {
             const resp = await fetchScheme(from, size);
             const { data } = resp.data
 
-            console.log(`Page info ${data?.hits?.page.totalPages}`)
             from += data?.hits?.page?.size;
 
             if (data?.hits?.items) {
@@ -146,5 +145,14 @@ async function scrapeSchemeDetails() {
     console.log('All batches complete. JSON file written: schemes-details.json');
 }
 
-scrapeData();
-// scrapeSchemeDetails();
+// Entry point for CLI usage
+const arg = process.argv[2];
+if (arg === 'schemes') {
+    scrapeData();
+} else if (arg === 'details') {
+    scrapeSchemeDetails();
+} else {
+    console.log('Usage: npx ts-node fetch_schemes.ts [schemes|details]');
+    console.log('  schemes - Fetch all schemes and save to data/schemes.json');
+    console.log('  details - Fetch details for all slugs and save to data/scheme-details/');
+}

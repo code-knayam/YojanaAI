@@ -1,8 +1,19 @@
 {
+  "name": "yojanaai-scripts",
+  "version": "1.0.0",
+  "description": "Scripts to fetch and process government scheme data from myscheme.gov.in API.",
+  "main": "fetch_schemes.ts",
+  "scripts": {
+    "fetch:schemes": "ts-node fetch_schemes.ts schemes",
+    "fetch:details": "ts-node fetch_schemes.ts details"
+  },
   "dependencies": {
-    "axios": "^1.10.0",
-    "csv-writer": "^1.6.0",
-    "dotenv": "^16.6.0",
-    "fs": "^0.0.1-security"
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.11.30"
   }
 }

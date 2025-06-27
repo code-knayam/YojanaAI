@@ -15,18 +15,20 @@ Empower every citizen to easily find and benefit from government schemes using c
 YojanaAI/
   backend/    # FastAPI, OpenAI, ChromaDB, Redis
   frontend/   # Angular, Firebase Auth, Chat UI
+  scripts/    # Node JS
 ```
 
 ## 🛠️ Quick Start
 For detailed setup and usage instructions, see:
 - [backend/README.md](backend/README.md)
 - [frontend/README.md](frontend/README.md)
+- [scripts/README.md](scripts/README.md)
 
 ## ☁️ Deployment
 - **Frontend:**
   - On every push to `main`, the Angular app is automatically built and deployed to Firebase Hosting via GitHub Actions ([workflow](.github/workflows/firebase-hosting-merge.yml)).
 - **Backend:** See `backend/render.yaml` for Render.com config
-- **Manual:** See the respective README files for manual deployment steps
+- **scripts** Data extraction and scraping scripts
 
 ## 🤝 Open Source & Contributing
 We welcome contributions! See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for how to get started.
