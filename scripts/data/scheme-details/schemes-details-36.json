@@ -1,0 +1,4463 @@
+{
+  "dedsuk": {
+    "_id": "68449e99ed4abe56e74553bd",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Cow",
+          "Buffalo",
+          "Livestock",
+          "Self-employment",
+          "Subsidy",
+          "Loan",
+          "Dairy"
+        ],
+        "schemeName": "Chief Minister State Livestock Mission: Dairy Entrepreneurship Development Scheme",
+        "schemeShortTitle": "CMSLMDUK",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce6ead6d1a3bde4685252",
+            "label": "Agriculture,Rural & Environment"
+          },
+          {
+            "value": "628ce733d6d1a3bde4685278",
+            "label": "Business & Entrepreneurship"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Animal husbandry",
+            "label": "Animal husbandry"
+          },
+          {
+            "value": "Setting up / start-up / entrepreneurship",
+            "label": "Setting up / start-up / entrepreneurship"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000004,
+          "label": "Department Of Animal Husbandry"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines",
+            "url": "https://ahd.uk.gov.in/scheme/chief-minister-state-livestock-mission/"
+          },
+          {
+            "title": "Dairy-5-Cows",
+            "url": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/202503191554085766.pdf"
+          },
+          {
+            "title": "Dairy-10-Cows",
+            "url": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/20250319992051500.pdf"
+          },
+          {
+            "title": "Dairy-2-Buffaloes",
+            "url": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/20250319787528016.pdf"
+          },
+          {
+            "title": "Dairy-5-Buffaloes",
+            "url": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/202503192093113271.pdf"
+          },
+          {
+            "title": "Notification",
+            "url": "https://cdn.s3waas.gov.in/s32421fcb1263b9530df88f7f002e78ea5/uploads/2025/01/2025010123.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The “Dairy Entrepreneurship Development Scheme” is a scheme under the Chief Minister State Livestock Mission, introduced by the Department of Animal Husbandry, Government of Uttarakhand. The scheme aims to promote self-employment at the local level by offering interest subsidies on bank loans (up to three years) for setting up various livestock units. Under this scheme, residents of Uttarakhand are eligible for a 90% interest subsidy on loans taken for setting up cow or buffalo rearing units. The scheme supports the establishment of dairy units such as 5-cow units, 10-cow units, 2-buffalo units, and 5-buffalo units, thereby encouraging sustainable livelihood through dairy farming.\n",
+        "benefits_md": "**The State Government provides a 90% interest subsidy on bank loans availed by applicants for setting up specified dairy units:**\n**Sl. No.****Description**[**5 Cow Units**](https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/202503191554085766.pdf)[**10 Cow Units**\t](https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/20250319992051500.pdf)[**2 Buffalo Units**](https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/20250319787528016.pdf)[**5 Buffalo Units**](https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/202503192093113271.pdf)**1**Cost of five milch animals including transportation and livestock insurance₹3,75,000/- (₹75,000/- per milch animal)₹7,50,000/- (₹75,000/- per milch animal)₹3,75,000/- (₹75,000/- per milch animal)₹7,50,000/- (₹75,000/- per milch animal)**2**Margin Money @ 10% of Project Cost₹37,500/-₹75,000/-₹37,500/-₹75,000/-**3**Bank Loan Amount₹3,37,500/-₹6,75,000/-₹3,37,500/-₹6,75,000/-**4**Estimated Interest Rate11 % per annum11 % per annum11 % per annum11 % per annum**5**Loan Repayment Period3 years3 years3 years3 years",
+        "briefDescription": "The scheme aims to promote self-employment at the local level by offering interest subsidies on bank loans for setting up various livestock units. Under this scheme, residents of Uttarakhand are eligible for a 90% interest subsidy on loans taken for the purchase of livestock. ",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The “Dairy Entrepreneurship Development Scheme” is a scheme under the Chief Minister State Livestock Mission, introduced by the Department of Animal Husbandry, Government of Uttarakhand. The scheme aims to promote self-employment at the local level by offering interest subsidies on bank loans (up to three years) for setting up various livestock units. Under this scheme, residents of Uttarakhand are eligible for a 90% interest subsidy on loans taken for setting up cow or buffalo rearing units. The scheme supports the establishment of dairy units such as 5-cow units, 10-cow units, 2-buffalo units, and 5-buffalo units, thereby encouraging sustainable livelihood through dairy farming."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The State Government provides a 90% interest subsidy on bank loans availed by applicants for setting up specified dairy units:",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "children": [
+              {
+                "type": "table_row",
+                "children": [
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Sl. No.",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Description",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/202503191554085766.pdf",
+                        "children": [
+                          {
+                            "text": "5 Cow Units",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/20250319992051500.pdf",
+                        "children": [
+                          {
+                            "text": "10 Cow Units\t",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/20250319787528016.pdf",
+                        "children": [
+                          {
+                            "text": "2 Buffalo Units",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "type": "link",
+                        "link": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2018/08/202503192093113271.pdf",
+                        "children": [
+                          {
+                            "text": "5 Buffalo Units",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table_row",
+                "children": [
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "1",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Cost of five milch animals including transportation and livestock insurance"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹3,75,000/- (₹75,000/- per milch animal)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹7,50,000/- (₹75,000/- per milch animal)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹3,75,000/- (₹75,000/- per milch animal)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹7,50,000/- (₹75,000/- per milch animal)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table_row",
+                "children": [
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "2",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Margin Money @ 10% of Project Cost"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹37,500/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹75,000/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹37,500/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹75,000/-"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table_row",
+                "children": [
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "3",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Bank Loan Amount"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹3,37,500/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹6,75,000/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹3,37,500/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "₹6,75,000/-"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table_row",
+                "children": [
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "4",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Estimated Interest Rate"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "11 % per annum"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "11 % per annum"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "11 % per annum"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "11 % per annum"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table_row",
+                "children": [
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "5",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "Loan Repayment Period"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "3 years"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "3 years"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "3 years"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "table_cell",
+                    "children": [
+                      {
+                        "text": "3 years"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "ul_list",
+                  "children": [
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "To apply, interested individuals can contact the nearest government veterinary hospital/animal service centers and submit their application in the prescribed format. "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Note:",
+                  "bold": true
+                },
+                {
+                  "text": " The applicant should visit the nearest local veterinary hospital along with the consent letter for loan approval from the bank."
+                }
+              ]
+            }
+          ],
+          "process_md": "\n  - To apply, interested individuals can contact the nearest government veterinary hospital/animal service centers and submit their application in the prescribed format. \n\n> **Note:** The applicant should visit the nearest local veterinary hospital along with the consent letter for loan approval from the bank.\n\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a resident of Uttarakhand.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a resident of Uttarakhand."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "dedsuk"
+  },
+  "fiscmgs": {
+    "_id": "6844017e0da05d1f899a3db5",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Incentive",
+          "Scheduled Caste",
+          "Student",
+          "Social Welfare",
+          "Merit"
+        ],
+        "schemeName": "Financial Incentive to SC Meritorious Girls Students",
+        "schemeShortTitle": "FISCMGS",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce76cd6d1a3bde4685292",
+            "label": "Education & Learning"
+          },
+          {
+            "value": "628ce87cd6d1a3bde4685312",
+            "label": "Social welfare & Empowerment"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Scholarships and student finance",
+            "label": "Scholarships and student finance"
+          },
+          {
+            "value": "Financial assistance",
+            "label": "Financial assistance"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 18,
+          "label": "Assam"
+        },
+        "nodalDepartmentName": "Directorate of Welfare of Scheduled Castes and Backward Classes"
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines",
+            "url": "https://directorwsc.assam.gov.in/home.php/scheme-page/%E2%80%9Cfinancial-incentive-sc-meritorious-girls-students%E2%80%9D"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The &#39;Financial Incentive to SC Meritorious Girls Students&#39; scheme, administered by the Directorate of Welfare of Scheduled Castes and Backward Classes, Government of Assam, provides financial assistance to deserving girl students from Scheduled Castes (SC). Eligibility is extended to those who have achieved 80% or higher marks in the HSLC (SEBA/CBSE/ICSE) examination. The scheme&#39;s objective is to motivate and encourage SC students to pursue higher education, thereby fostering their academic parity with the broader population through a substantial incentive. Assistance is contingent upon the applicant satisfying the stipulated eligibility criteria and the successful submission of required documentation. An incentive of ₹5,000/- will be disbursed to students as approved by the Selection Committee.&quot;\n",
+        "benefits_md": "A financial incentive of ₹5,000/- is provided.\n",
+        "briefDescription": "The scheme provides financial incentives worth ₹5,000/- to the meritorious girls from Scheduled Castes who have secured 80% or above marks in the HSLC (SEBA/CBSE/ICSE) examination. To objective is to motivate and encourage SC students to pursue higher studies and bring them at par with the rest.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The 'Financial Incentive to SC Meritorious Girls Students' scheme, administered by the Directorate of Welfare of Scheduled Castes and Backward Classes, Government of Assam, provides financial assistance to deserving girl students from Scheduled Castes (SC). Eligibility is extended to those who have achieved 80% or higher marks in the HSLC (SEBA/CBSE/ICSE) examination. The scheme's objective is to motivate and encourage SC students to pursue higher education, thereby fostering their academic parity with the broader population through a substantial incentive. Assistance is contingent upon the applicant satisfying the stipulated eligibility criteria and the successful submission of required documentation. An incentive of ₹5,000/- will be disbursed to students as approved by the Selection Committee.\""
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A financial incentive of ₹5,000/- is provided."
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Online",
+          "process": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1:",
+                  "bold": true
+                },
+                {
+                  "text": " Visit the dedicated page of the \"[Scheme Name]\" scheme on myScheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2:",
+                  "bold": true
+                },
+                {
+                  "text": " Right below the name of the scheme, click \"Apply Now\". You will be taken to the application form of the scheme."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*The application form has been created using “GovForms” and has in-built integration with DigiLocker. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*The following fields (if present in the application form) will be auto-filled from DigiLocker: Name, Gender, Date of Birth, House Number, District, Pincode, State, Mobile Number, Profile Picture."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*Additionally, \"DigiLocker File Upload\" fetches specific documents, provided they are available in the applicant's DigiLocker account."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 3:",
+                  "bold": true
+                },
+                {
+                  "text": " Fill in rest of the mandatory fields of the application form, and upload all the mandatory documents in the specified format and size."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 4: ",
+                  "bold": true
+                },
+                {
+                  "text": "Carefully review all the information provided and the documents uploaded. Make any necessary corrections."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 5",
+                  "bold": true
+                },
+                {
+                  "text": ": Click \"Submit\". You'll receive the following confirmation message: \"Form Submitted Successfully!\"."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "For future reference, click \"Print\" to take a print of the form or to download the filled form as a PDF file. Else, click \"Ok\" to get redirected to the myScheme landing page."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ],
+          "process_md": "**Step 1:** Visit the dedicated page of the &quot;[Scheme Name]&quot; scheme on myScheme.\n**Step 2:** Right below the name of the scheme, click &quot;Apply Now&quot;. You will be taken to the application form of the scheme.\n*The application form has been created using “GovForms” and has in-built integration with DigiLocker. \n*The following fields (if present in the application form) will be auto-filled from DigiLocker: Name, Gender, Date of Birth, House Number, District, Pincode, State, Mobile Number, Profile Picture.\n*Additionally, &quot;DigiLocker File Upload&quot; fetches specific documents, provided they are available in the applicant&#39;s DigiLocker account.\n**Step 3:** Fill in rest of the mandatory fields of the application form, and upload all the mandatory documents in the specified format and size.\n**Step 4:** Carefully review all the information provided and the documents uploaded. Make any necessary corrections.\n**Step 5**: Click &quot;Submit&quot;. You&#39;ll receive the following confirmation message: &quot;Form Submitted Successfully!&quot;.\nFor future reference, click &quot;Print&quot; to take a print of the form or to download the filled form as a PDF file. Else, click &quot;Ok&quot; to get redirected to the myScheme landing page.\n<br>\n\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n- **Applicants must be currently enrolled as students.**\n- **Applicants must be female.**\n- **Applicants must belong to a Scheduled Caste (SC) community of Assam.**\n- **Applicants must have secured a minimum of 80% marks in the HSLC (SEBA/CBSE/ICSE) examination.**\n- **The annual income of the applicant&#39;s parents/guardians must not exceed ₹5,00,000/-.**\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants must be currently enrolled as students.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants must be female.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants must belong to a Scheduled Caste (SC) community of Assam.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Applicants must have secured a minimum of 80% marks in the HSLC (SEBA/CBSE/ICSE) examination.",
+                    "bold": true
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The annual income of the applicant's parents/guardians must not exceed ₹5,00,000/-.",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "fiscmgs"
+  },
+  "mny": {
+    "_id": "68458a6850c110b1567ddc99",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Financial Assistance",
+          "Women Group",
+          "Nursery",
+          "SHG",
+          "Plants"
+        ],
+        "schemeName": "Mahila Nursery Yojana",
+        "schemeShortTitle": "MNY",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce6ead6d1a3bde4685252",
+            "label": "Agriculture,Rural & Environment"
+          },
+          {
+            "value": "64f57d10ffb93104c7006c97",
+            "label": "Women and Child"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Agricultural Inputs- seeds, fertilizer etc.",
+            "label": "Agricultural Inputs- seeds, fertilizer etc."
+          },
+          {
+            "value": "Environmental grants",
+            "label": "Environmental grants"
+          },
+          {
+            "value": "Financial assistance",
+            "label": "Financial assistance"
+          },
+          {
+            "value": "Environmental management and protection",
+            "label": "Environmental management and protection"
+          },
+          {
+            "value": "Financial Assistance",
+            "label": "Financial Assistance"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "self-help-groups",
+            "label": "Self Help Groups (SHGS)"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000042,
+          "label": "Uttarakhand Forest Department"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 96)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s339e6f67916920d9419b3d92cf1e9a958/uploads/2025/03/202503051625218025.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The &amp;quot;Mahila Nursery Yojana&amp;quot; scheme was launched by the Department of Forest, Government of Uttarakhand. The scheme aims to empower women&amp;#39;s groups through income generation by establishing plant nurseries. Under this scheme, high-quality, species-specific seeds and technical training are provided to self-help groups and local women to set up nurseries. Resources required for nursery operations are also funded via fixed grants. The plants grown in these nurseries are purchased by the Forest Department based on agreement.\n",
+        "benefits_md": "\n- High-quality species-wise seeds are provided to women’s groups.\n- Financial support in the form of a fixed grant for nursery equipment and resources.\n- Technical support and training for nursery management.\n- Purchase of grown plants by the Forest Department based on experience and quality.\n\n**Note:** The department disburses the grant in installments directly into the self-help group&#39;s account upon the purchase of resources required for establishing the nursery.\n",
+        "briefDescription": "The scheme aims to promote nursery establishment by providing women's groups with high-quality seedlings or saplings from certified sources, along with a fixed grant, technical support, and training to ensure effective nursery operations.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The \"Mahila Nursery Yojana\" scheme was launched by the Department of Forest, Government of Uttarakhand. The scheme aims to empower women's groups through income generation by establishing plant nurseries. Under this scheme, high-quality, species-specific seeds and technical training are provided to self-help groups and local women to set up nurseries. Resources required for nursery operations are also funded via fixed grants. The plants grown in these nurseries are purchased by the Forest Department based on agreement."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 3,
+          "value": "composite",
+          "label": "Composite"
+        },
+        "benefits": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "High-quality species-wise seeds are provided to women’s groups."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Financial support in the form of a fixed grant for nursery equipment and resources."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Technical support and training for nursery management."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Purchase of grown plants by the Forest Department based on experience and quality."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Note:",
+                "bold": true
+              },
+              {
+                "text": " The department disburses the grant in installments directly into the self-help group's account upon the purchase of resources required for establishing the nursery."
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "align_justify",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": "Step 1: ",
+                          "bold": true
+                        },
+                        {
+                          "text": "The applicant women's group should contact the concerned Divisional Forest Office for registration under the scheme."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": "Step 2: ",
+                          "bold": true
+                        },
+                        {
+                          "text": "The group should submit a proposal specifying the nursery location, along with the required documents for registration."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": "Step 3: ",
+                          "bold": true
+                        },
+                        {
+                          "text": "Upon verification, support is provided to the Women Self-Help Group under the scheme."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": "Notes:",
+                          "bold": true,
+                          "italic": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ul_list",
+                      "children": [
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "A copy of the nursery manual and relevant technical information will be provided to the group for setting up the nursery."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "list_item",
+                          "children": [
+                            {
+                              "text": "The department provides the grant in installments to the bank accounts of self-help groups for the essential materials used in setting up the nursery, which are purchased by the group."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "**Step 1:** The applicant women&amp;amp;#39;s group should contact the concerned Divisional Forest Office for registration under the scheme.\n**Step 2:** The group should submit a proposal specifying the nursery location, along with the required documents for registration.\n**Step 3:** Upon verification, support is provided to the Women Self-Help Group under the scheme.\n***Notes:***\n\n  - A copy of the nursery manual and relevant technical information will be provided to the group for setting up the nursery.\n  - The department provides the grant in installments to the bank accounts of self-help groups for the essential materials used in setting up the nursery, which are purchased by the group.\n\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a registered Women Self-Help Group, Women Mangal Dal, or Local Women Group.\n1. The women&#39;s group should be operating within the state of Uttarakhand.\n1. The group should be registered with the concerned Divisional Forest Office.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a registered Women Self-Help Group, Women Mangal Dal, or Local Women Group."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The women's group should be operating within the state of Uttarakhand."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The group should be registered with the concerned Divisional Forest Office."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "mny"
+  },
+  "erikshawuk": {
+    "_id": "68515703df7f9910b3be1605",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Electric Rikshaw",
+          "Transportation",
+          "Employment",
+          "Financial Assistance",
+          "Entrepreneurs"
+        ],
+        "schemeName": "E-Rickshaw Kalyan Yojana",
+        "schemeShortTitle": "ERIKSHAWUK",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce924d6d1a3bde4685354",
+            "label": "Transport & Infrastructure"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Roads and road transport",
+            "label": "Roads and road transport"
+          },
+          {
+            "value": "Public transport and private vehicles",
+            "label": "Public transport and private vehicles"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000002,
+          "label": "Co-Operative Department"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines",
+            "url": "https://cooperative.uk.gov.in/scheme/pradhan-mantri-gram-sadak-yojana/"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "E-Rickshaw Kalyan Yojana is an initiative launched by the Uttarakhand Government to promote the use of electric rickshaws as an environmentally friendly, affordable, and sustainable mode of transport. The scheme focuses on providing financial assistance and incentives to individuals and entrepreneurs who wish to operate electric rickshaws in urban and semi-urban areas. The primary objective is to reduce air pollution, promote cleaner transportation, and generate employment opportunities.\n",
+        "benefits_md": "\n1. To promote the use of electric rickshaws as an environmentally friendly, affordable, and sustainable mode of transport. \n1. The scheme focuses on providing financial assistance and incentives to individuals and entrepreneurs who wish to operate electric rickshaws in urban and semi-urban areas. \n1. The primary objective is to reduce air pollution, promote cleaner transportation, and generate employment opportunities.\n\n",
+        "briefDescription": "The scheme focuses on providing financial assistance and incentives to individuals and entrepreneurs who wish to operate electric rickshaws in urban and semi-urban areas. The primary objective is to reduce air pollution, promote cleaner transportation, and generate employment opportunities.",
+        "exclusions_md": "<br>\n\n",
+        "detailedDescription": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "E-Rickshaw Kalyan Yojana is an initiative launched by the Uttarakhand Government to promote the use of electric rickshaws as an environmentally friendly, affordable, and sustainable mode of transport. The scheme focuses on providing financial assistance and incentives to individuals and entrepreneurs who wish to operate electric rickshaws in urban and semi-urban areas. The primary objective is to reduce air pollution, promote cleaner transportation, and generate employment opportunities."
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 3,
+          "value": "composite",
+          "label": "Composite"
+        },
+        "benefits": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "To promote the use of electric rickshaws as an environmentally friendly, affordable, and sustainable mode of transport. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The scheme focuses on providing financial assistance and incentives to individuals and entrepreneurs who wish to operate electric rickshaws in urban and semi-urban areas. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The primary objective is to reduce air pollution, promote cleaner transportation, and generate employment opportunities."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exclusions": null
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Obtain Quotation"
+                    }
+                  ]
+                },
+                {
+                  "type": "ul_list",
+                  "children": [
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Collect a quotation for the e-rickshaw from an authorized dealer or registered vendor."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Open Bank Account"
+                    }
+                  ]
+                },
+                {
+                  "type": "ul_list",
+                  "children": [
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Open a savings/current account with the designated cooperative bank."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Become Nominal Members"
+                    }
+                  ]
+                },
+                {
+                  "type": "ul_list",
+                  "children": [
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "The borrower and both guarantors must become nominal members of the cooperative bank."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Submit Required Documents"
+                    }
+                  ]
+                },
+                {
+                  "type": "ul_list",
+                  "children": [
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "KYC Documents (Aadhaar, PAN, etc.)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Valid Driver’s License."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Quotation of the e-Rickshaw."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Permanent Residence Certificate."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Credit Score Report."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Stamp Papers for Debtor and Surety."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Liquid Securities (e.g., Fixed Deposits, Recurring Deposits)."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Mortgage Document (in the name of the e-rickshaw)."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list_item",
+                      "children": [
+                        {
+                          "text": "Insurance Copy (Vehicle insurance)."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "\n1. Obtain Quotation\n\n  - Collect a quotation for the e-rickshaw from an authorized dealer or registered vendor.\n\n1. Open Bank Account\n\n  - Open a savings/current account with the designated cooperative bank.\n\n1. Become Nominal Members\n\n  - The borrower and both guarantors must become nominal members of the cooperative bank.\n\n1. Submit Required Documents\n\n  - KYC Documents (Aadhaar, PAN, etc.)\n  - Valid Driver’s License.\n  - Quotation of the e-Rickshaw.\n  - Permanent Residence Certificate.\n  - Credit Score Report.\n  - Stamp Papers for Debtor and Surety.\n  - Liquid Securities (e.g., Fixed Deposits, Recurring Deposits).\n  - Mortgage Document (in the name of the e-rickshaw).\n  - Insurance Copy (Vehicle insurance).\n\n\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Uttarakhand. \n1. The applicant should be between 18 and 55 years. \n1. The applicant should have their own or be willing to purchase an electric rickshaw under the scheme. \n1. The applicant should be targeted at economically weaker sections, with possible inclusion of others based on government criteria. \n1. The applicant should require a valid driving license for operating e-rickshaws. \n1. The applicant should have no pending criminal cases or criminal history. \n1. The applicant should ensure that the e- rickshaw must comply with safety and environmental norms. \n1. The applicant should be open to individuals providing public transport services, especially in urban and semi-urban areas.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a permanent resident of Uttarakhand. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be between 18 and 55 years. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should have their own or be willing to purchase an electric rickshaw under the scheme. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be targeted at economically weaker sections, with possible inclusion of others based on government criteria. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should require a valid driving license for operating e-rickshaws. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should have no pending criminal cases or criminal history. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should ensure that the e- rickshaw must comply with safety and environmental norms. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be open to individuals providing public transport services, especially in urban and semi-urban areas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "erikshawuk"
+  },
+  "uuny": {
+    "_id": "68413876918e1089120ce2ac",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Wool",
+          "Weaving",
+          "Pension",
+          "Annual Bonus",
+          "Artisans"
+        ],
+        "schemeName": "Uttarakhand Unn Yojana",
+        "schemeShortTitle": "UUNY",
+        "implementingAgency": "Uttarakhand Khadi And Village Industries Board",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce85cd6d1a3bde4685304",
+            "label": "Skills & Employment"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Training and Skill Up-gradation",
+            "label": "Training and Skill Up-gradation"
+          },
+          {
+            "value": "Employment services and jobs",
+            "label": "Employment services and jobs"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "industries",
+            "label": "Industries"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000055,
+          "label": "Uttrakhand Khadi Evam Village Industries Board"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines Page No. 108",
+            "url": "https://uk.gov.in/department92/library_file/file-30-01-2025-04-25-16.pdf"
+          },
+          {
+            "title": "Official Website",
+            "url": "http://www.ukvib.org/uttarakhand-wool-plan"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The scheme &quot;Uttarakhand Unn Yojana&quot; by the Government of Uttarakhand aims to provide spinning and weaving work, fostering employment in the wool industry. Under this scheme, wool weaving is carried out through four regional offices of the Directorate of Industries (Wool) located in Chamba, Srinagar, Almora, and Jaspur. These offices function through affiliated carding/production centres. \nUnder the Uttarakhand Khadi and Village Industries Board, wool carding and weaving work is carried out through major centers at Chamoli, Almora, and Srinagar, along with 20 production centers. This initiative helps generate employment opportunities in the state. The Uttarakhand Khadi and Village Industries Board implements the scheme.\n> **Under the Uttarakhand Wool Scheme:**\n\n\n- Finishing and carding plants are set up at Almora and Srinagar Garhwal centers.\n- Carding plants are also established at Bhageshwar and Chamba (Tihri).\n- Through these centres, local artisans, institutions/committees, and departmental centers carry out wool carding and finishing work.\n\nIn total, 20 production centers and 10 sales centers are operated by district-level representatives under this scheme.\n",
+        "benefits_md": "\n1. Wool weaving is carried out through four regional offices of the Directorate of Industries (Wool) located in Chamba, Srinagar, Almora, and Jaspur.\n1. These regional offices operate via affiliated carding/production centers.\n1. Interested trainees are selected and provided training in wool weaving.\n1. After training, raw wool is provided through departmental carding/production centers for home-based weaving.\n1. Wool/NYSY yarn is supplied for weaving purposes.\n1. The Khadi and Village Industries Commission and the Government of India purchase the woven wool, providing income and sustainable employment to the weavers.\n1. The Khadi and Village Industries Board Welfare and Pension Trust has been set up for the sale of woolen goods.\n1. A 12% artisan contribution and a 12% departmental grant are collected from the weavers’ income.\n1. At the end of the year, a 25% bonus on wages is provided to artisans for their woven goods.\n\n",
+        "briefDescription": "The scheme aims to provide spinning and weaving work, fostering employment in the wool industry. Through this scheme, payment for spinning and weaving work, along with pension benefits and an annual bonus, is provided to weavers.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The scheme \"Uttarakhand Unn Yojana\" by the Government of Uttarakhand aims to provide spinning and weaving work, fostering employment in the wool industry. Under this scheme, wool weaving is carried out through four regional offices of the Directorate of Industries (Wool) located in Chamba, Srinagar, Almora, and Jaspur. These offices function through affiliated carding/production centres. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Under the Uttarakhand Khadi and Village Industries Board, wool carding and weaving work is carried out through major centers at Chamoli, Almora, and Srinagar, along with 20 production centers. This initiative helps generate employment opportunities in the state. The Uttarakhand Khadi and Village Industries Board implements the scheme."
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Under the Uttarakhand Wool Scheme:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Finishing and carding plants are set up at Almora and Srinagar Garhwal centers."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Carding plants are also established at Bhageshwar and Chamba (Tihri)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Through these centres, local artisans, institutions/committees, and departmental centers carry out wool carding and finishing work."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "In total, 20 production centers and 10 sales centers are operated by district-level representatives under this scheme."
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 3,
+          "value": "composite",
+          "label": "Composite"
+        },
+        "benefits": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Wool weaving is carried out through four regional offices of the Directorate of Industries (Wool) located in Chamba, Srinagar, Almora, and Jaspur."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "These regional offices operate via affiliated carding/production centers."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Interested trainees are selected and provided training in wool weaving."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "After training, raw wool is provided through departmental carding/production centers for home-based weaving."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Wool/NYSY yarn is supplied for weaving purposes."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Khadi and Village Industries Commission and the Government of India purchase the woven wool, providing income and sustainable employment to the weavers."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The Khadi and Village Industries Board Welfare and Pension Trust has been set up for the sale of woolen goods."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A 12% artisan contribution and a 12% departmental grant are collected from the weavers’ income."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "At the end of the year, a 25% bonus on wages is provided to artisans for their woven goods."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "ol_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Beneficiaries are selected based on recommendations by local public representatives or District Village Industries Officers, and through the respective Regional Directorate of Industries (Wool)."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Selection is carried out as per departmental utility."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Interested applicants can contact the District Khadi and Village Industries Office and the Regional Wool Offices located in Chamba, Srinagar, Almora, and Jaspur."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "\n1. Beneficiaries are selected based on recommendations by local public representatives or District Village Industries Officers, and through the respective Regional Directorate of Industries (Wool).\n1. Selection is carried out as per departmental utility.\n1. Interested applicants can contact the District Khadi and Village Industries Office and the Regional Wool Offices located in Chamba, Srinagar, Almora, and Jaspur.\n\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant&#39;s minimum age should be 18 years.\n1. The applicant must be a resident of Uttarakhand.\n1. No educational qualification is required.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant's minimum age should be 18 years."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must be a resident of Uttarakhand."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "No educational qualification is required."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "uuny"
+  },
+  "gvs": {
+    "_id": "6842cc9e39dee21fa395f262",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Loan",
+          "Self Employment",
+          "Goat Rearing",
+          "Entrepreneurship",
+          "Livestock"
+        ],
+        "schemeName": "Goat Valley Scheme",
+        "schemeShortTitle": "GVS",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce6ead6d1a3bde4685252",
+            "label": "Agriculture,Rural & Environment"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Financial assistance",
+            "label": "Financial assistance"
+          },
+          {
+            "value": "Animal husbandry",
+            "label": "Animal husbandry"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000004,
+          "label": "Department Of Animal Husbandry"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Scheme Details",
+            "url": "https://ahd.uk.gov.in/scheme/goat-valley/"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The “Goat Valley” scheme was launched in 2022 by the Department of Animal Husbandry, Government of Uttarakhand, as a cluster-based model for promoting entrepreneurship in the animal husbandry sector in the state. Its objectives include establishing Goat Valleys as clusters for organized goat rearing, promoting youth self-employment, transforming traditional goat rearing into profit-oriented enterprises and organising the sector to enhance year-round livelihood opportunities for farmers. This initiative brings together various schemes, such as the District Goat Rearing Program, State Goat Rearing Program, NCDC Loan, Deen Dayal Upadhyay Loan, and REAP to develop dedicated goat-saturated zones in each district.\n",
+        "benefits_md": "**1. Goat Unit Establishment:** Each beneficiary establishes a goat unit of 15+1 animals.\n**2. Financial Support Structure:**\n\n- **Loan:** ₹30,000 loan from NCDC (National Cooperative Development Corporation).- **Subsidy:** ₹63,000 subsidy.- **Beneficiary Contribution:** Requires a ₹7,000 beneficiary contribution.\n> **Conditions/Aspects/Criteria associated with the benefits:**\n\n\n- The goat unit size is fixed at 15+1 animals.\n- The specific financial contributions (loan, subsidy, beneficiary) are predetermined for each unit.\n\n",
+        "briefDescription": "The objective of the scheme is to establish Goat Valleys as clusters for organized goat rearing, promote youth self-employment, transform traditional goat rearing into profit-oriented enterprises, and organize the sector to enhance year-round livelihood opportunities for farmers.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The “Goat Valley” scheme was launched in 2022 by the Department of Animal Husbandry, Government of Uttarakhand, as a cluster-based model for promoting entrepreneurship in the animal husbandry sector in the state. Its objectives include establishing Goat Valleys as clusters for organized goat rearing, promoting youth self-employment, transforming traditional goat rearing into profit-oriented enterprises and organising the sector to enhance year-round livelihood opportunities for farmers. This initiative brings together various schemes, such as the District Goat Rearing Program, State Goat Rearing Program, NCDC Loan, Deen Dayal Upadhyay Loan, and REAP to develop dedicated goat-saturated zones in each district."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 3,
+          "value": "composite",
+          "label": "Composite"
+        },
+        "benefits": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "1. Goat Unit Establishment: ",
+                "bold": true
+              },
+              {
+                "text": "Each beneficiary establishes a goat unit of 15+1 animals."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "2. Financial Support Structure:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Loan: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "₹30,000 loan from NCDC (National Cooperative Development Corporation)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Subsidy: ",
+                    "bold": true
+                  },
+                  {
+                    "text": "₹63,000 subsidy."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Beneficiary Contribution:",
+                    "bold": true
+                  },
+                  {
+                    "text": " Requires a ₹7,000 beneficiary contribution."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Conditions/Aspects/Criteria associated with the benefits:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The goat unit size is fixed at 15+1 animals."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The specific financial contributions (loan, subsidy, beneficiary) are predetermined for each unit."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Online",
+          "process": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Registration Process:",
+                  "underline": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Visit to e-Services Apuni Sarkar ("
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://eservices.uk.gov.in/",
+                      "children": [
+                        {
+                          "text": "https://eservices.uk.gov.in"
+                        }
+                      ]
+                    },
+                    {
+                      "text": ") and click “Sign Up” on the Citizen Login page."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 2: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Fill in the registration form with your name, email, mobile number, etc., and click Submit."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 3:",
+                      "bold": true
+                    },
+                    {
+                      "text": " You will receive your User ID and password via SMS on your registered mobile number. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Application Process:",
+                      "bold": true,
+                      "underline": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Navigate to the "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://eservices.uk.gov.in/",
+                      "children": [
+                        {
+                          "text": "Citizen Login page"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " and enter your User ID (email or mobile) and password, complete the captcha, then click Sign In."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 2:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Once logged in, your dashboard appears. Click “Apply for New Application” or similar to begin. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 3:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Choose the Animal Husbandry department, from the list of services, select the scheme to apply for. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 4: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "The portal will list mandatory documents required and upload mandatory documents, after uploading, click Submit to proceed. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 5:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Enter all required details in the form (personal, land, bank, etc.). Use Save to save progress, preview to review, or Delete Draft to reset."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 6: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Once all fields are accurately filled, click Submit. You will receive an Application ID receipt, which you can download. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Track Application and Approval",
+                      "bold": true,
+                      "underline": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "The application goes to the concerned department for review."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 2: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "You can track your application status on the "
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://eservices.uk.gov.in/user/public/application/status/",
+                      "children": [
+                        {
+                          "text": "portal"
+                        }
+                      ]
+                    },
+                    {
+                      "text": " using your Application ID."
+                    },
+                    {
+                      "type": "link",
+                      "link": "https://eservices.uk.gov.in/docs/user-manual.pdf",
+                      "children": [
+                        {
+                          "text": "User Manual"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Note: "
+                    },
+                    {
+                      "text": "Beneficiaries are selected by a block-level committee after scrutinizing applications submitted through the Apuni Sarkar portal."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "**Registration Process:**\n**Step 1:** Visit to e-Services Apuni Sarkar ([https://eservices.uk.gov.in](https://eservices.uk.gov.in/)) and click “Sign Up” on the Citizen Login page.\n**Step 2:** Fill in the registration form with your name, email, mobile number, etc., and click Submit.\n**Step 3:** You will receive your User ID and password via SMS on your registered mobile number. \n**Application Process:**\n**Step 1:** Navigate to the [Citizen Login page](https://eservices.uk.gov.in/) and enter your User ID (email or mobile) and password, complete the captcha, then click Sign In.\n**Step 2:** Once logged in, your dashboard appears. Click “Apply for New Application” or similar to begin. \n**Step 3:** Choose the Animal Husbandry department, from the list of services, select the scheme to apply for. \n**Step 4:** The portal will list mandatory documents required and upload mandatory documents, after uploading, click Submit to proceed. \n**Step 5:** Enter all required details in the form (personal, land, bank, etc.). Use Save to save progress, preview to review, or Delete Draft to reset.\n**Step 6:** Once all fields are accurately filled, click Submit. You will receive an Application ID receipt, which you can download. \n**Track Application and Approval**\n**Step 1:** The application goes to the concerned department for review.\n**Step 2:** You can track your application status on the [portal](https://eservices.uk.gov.in/user/public/application/status/) using your Application ID.[User Manual](https://eservices.uk.gov.in/docs/user-manual.pdf)\n**Note:** Beneficiaries are selected by a block-level committee after scrutinizing applications submitted through the Apuni Sarkar portal.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a resident of Uttarakhand.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a resident of Uttarakhand."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "gvs"
+  },
+  "kdy": {
+    "_id": "685bcdc287aa2dcacd09a0d4",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Travel",
+          "Tourism",
+          "Pilgrim",
+          "Culture",
+          "Heritage"
+        ],
+        "schemeName": "Kailash Darshan Yatra",
+        "schemeShortTitle": "KDY",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce8aad6d1a3bde4685320",
+            "label": "Sports & Culture"
+          },
+          {
+            "value": "628ce94cd6d1a3bde468536f",
+            "label": "Travel & Tourism"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Culture",
+            "label": "Culture"
+          },
+          {
+            "value": "Tourism in India",
+            "label": "Tourism in India"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 24,
+          "label": "Gujarat"
+        },
+        "nodalDepartmentName": {
+          "value": 2444466,
+          "label": "Tourism Department"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines & Application Form",
+            "url": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2018-9-27_365.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "Launched in 2001, the scheme &quot;Kailash Darshan Yatra&quot; by the Gujarat Holy Pilgrimage Development Board, Tourism Department, Government of Gujarat, aims to provide financial assistance to pilgrims from Gujarat undertaking the sacred Kailash Mansarovar pilgrimage. The scheme offers one-time financial assistance to selected applicants who complete the yatra. To be eligible, the applicant must be a selected pilgrim from Gujarat and submit proof of yatra completion within 90 days. Applications for this scheme are accepted offline.\n",
+        "benefits_md": "One-time financial assistance is provided to the pilgrim for undertaking the Kailash Darshan Yatra.\n**Validity:** Once in a lifetime per pilgrim.\n_*The scheme guidelines do not specify the amount of the benefit; applicants should verify with the authorities._\n",
+        "briefDescription": "The scheme provides financial assistance to pilgrims from Gujarat undertaking the Kailash Darshan Yatra. To be eligible, the applicant must be a selected pilgrim from Gujarat and submit proof of yatra completion within 90 days. Applications for this scheme are accepted offline.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Launched in 2001, the scheme \"Kailash Darshan Yatra\" by the Gujarat Holy Pilgrimage Development Board, Tourism Department, Government of Gujarat, aims to provide financial assistance to pilgrims from Gujarat undertaking the sacred Kailash Mansarovar pilgrimage. The scheme offers one-time financial assistance to selected applicants who complete the yatra. To be eligible, the applicant must be a selected pilgrim from Gujarat and submit proof of yatra completion within 90 days. Applications for this scheme are accepted offline."
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "One-time financial assistance is provided to the pilgrim for undertaking the Kailash Darshan Yatra."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Validity:",
+                "bold": true,
+                "underline": true
+              },
+              {
+                "text": " Once in a lifetime per pilgrim."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "*The scheme guidelines do not specify the amount of the benefit; applicants should verify with the authorities.",
+                "italic": true
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " The interested applicant should take a printout of the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://yatradham.gujarat.gov.in/Documents/SubDeals_2018-9-27_365.pdf",
+                  "children": [
+                    {
+                      "text": "prescribed format"
+                    }
+                  ]
+                },
+                {
+                  "text": " of the application form."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " In the application form, fill in all the mandatory fields (details of the authorized travel agent/organizer, details of the pilgrims), and attach copies of all the mandatory documents (self-attested, if required)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 3:",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "text": " Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to "
+                },
+                {
+                  "text": "\"Gujarat Holy Pilgrimage Development Board, Old Secretariat, Gandhinagar\"",
+                  "bold": true
+                },
+                {
+                  "text": " within 90 days of yatra completion."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "*Retain a copy of the submitted application for future reference.",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Verification & Disbursement",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The board processes applications, and financial assistance is credited to the beneficiary’s account."
+                }
+              ]
+            }
+          ],
+          "process_md": "**Step 1:** The interested applicant should take a printout of the [prescribed format](https://yatradham.gujarat.gov.in/Documents/SubDeals_2018-9-27_365.pdf) of the application form.\n**Step 2:** In the application form, fill in all the mandatory fields (details of the authorized travel agent/organizer, details of the pilgrims), and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents, within the prescribed period (if any), to **&quot;Gujarat Holy Pilgrimage Development Board, Old Secretariat, Gandhinagar&quot;** within 90 days of yatra completion.\n_*Retain a copy of the submitted application for future reference._\n<br>\n\n**Verification &amp; Disbursement**\nThe board processes applications, and financial assistance is credited to the beneficiary’s account.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n- The applicant must be a pilgrim from Gujarat.\n- The applicant must have completed the Kailash Darshan Yatra.\n- The applicant must apply within 90 days of yatra completion.\n- The applicant must not have availed of the benefit before under this scheme.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must be a pilgrim from Gujarat."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must have completed the Kailash Darshan Yatra."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must apply within 90 days of yatra completion."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must not have availed of the benefit before under this scheme."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "kdy"
+  },
+  "otows": {
+    "_id": "68459425ed4abe56e746383b",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": true,
+        "tags": [
+          "Financial Assistance",
+          "Plantation",
+          "Tree",
+          "Plants"
+        ],
+        "schemeName": "Our Tree Our Wealth Scheme",
+        "schemeShortTitle": "OTOWS",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce6ead6d1a3bde4685252",
+            "label": "Agriculture,Rural & Environment"
+          }
+        ],
+        "schemeSubCategory": [],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          },
+          {
+            "value": "family",
+            "label": "Family"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000042,
+          "label": "Uttarakhand Forest Department"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 96)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s339e6f67916920d9419b3d92cf1e9a958/uploads/2025/03/202503051625218025.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The &amp;quot;Our Tree Our Wealth Scheme&amp;quot; was launched by the Forest Department, Government of Uttarakhand. It aims to promote afforestation on private land by providing financial incentives to landowners. Under this scheme, an incentive is offered for planting fuel, fodder, fruit, and timber species. The incentive amount is secured through a Fixed Deposit Receipt (FDR) in the name of the Divisional or Joint Forest Officer and released to the beneficiary after three years based on plant survival. \n",
+        "benefits_md": "\n- ₹300/- per plant is provided as a financial incentive for planting fuel, fodder, fruit, and timber species on private land.\n\n> **Note:**\n\n\n- The incentive amount is kept in an FDR in the name of the concerned Divisional or Joint Forest Officer.\n- The amount is released to the beneficiary after 3 years based on the success/survival rate of the planted trees.\n- A maximum of 100 plants per applicant/family is allowed per year.\n- Validity is based on the survival of trees after 3 years of plantation.\n\n",
+        "briefDescription": "The scheme aims to promote tree plantation on private land by providing an incentive of ₹300 per plant, which is disbursed after three years based on the survival rate of the plants. Each applicant or family is eligible for support for up to 100 plants per year.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The \"Our Tree Our Wealth Scheme\" was launched by the Forest Department, Government of Uttarakhand. It aims to promote afforestation on private land by providing financial incentives to landowners. Under this scheme, an incentive is offered for planting fuel, fodder, fruit, and timber species. The incentive amount is secured through a Fixed Deposit Receipt (FDR) in the name of the Divisional or Joint Forest Officer and released to the beneficiary after three years based on plant survival. "
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "₹300/- per plant is provided as a financial incentive for planting fuel, fodder, fruit, and timber species on private land."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Note:",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The incentive amount is kept in an FDR in the name of the concerned Divisional or Joint Forest Officer."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The amount is released to the beneficiary after 3 years based on the success/survival rate of the planted trees."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A maximum of 100 plants per applicant/family is allowed per year."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Validity is based on the survival of trees after 3 years of plantation."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Application Process:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "bold": true,
+                  "text": "Step 1: "
+                },
+                {
+                  "text": "The interested applicant should visit (during office hours) the Divisional Forest Officer's office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "OR",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "The interested applicant downloads the application form"
+                },
+                {
+                  "type": "link",
+                  "link": "https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/ICOM/2025/Guidelines/O_030325_26f50adb-f7b4-4eb5-b94d-1e5e45451a85.pdf",
+                  "children": [
+                    {
+                      "text": " "
+                    }
+                  ]
+                },
+                {
+                  "text": "from the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://forest.uk.gov.in/",
+                  "children": [
+                    {
+                      "text": "official website"
+                    }
+                  ]
+                },
+                {
+                  "text": ". "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2:",
+                  "bold": true
+                },
+                {
+                  "text": " In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attested, if required)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 3:",
+                  "bold": true
+                },
+                {
+                  "text": " Submit the duly filled and signed application form along with the documents to the respective Divisional Forest Officer's Office."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "NOTE:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must agree to the creation of an FDR in the name of the Divisional or Joint Forest Officer."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "The applicant must sign an agreement on a ₹10/- stamp paper."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Purchase plants at subsidized rates from recognized nurseries."
+                    }
+                  ]
+                },
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "Transport and plant the saplings at own expense."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Post-application Process:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1: ",
+                  "bold": true
+                },
+                {
+                  "text": "After 3 years, a joint inspection by Gram Pradhan, Van Panchayat Sarpanch, Forest Ranger, and Revenue Official evaluates the survival of planted trees."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2: ",
+                  "bold": true
+                },
+                {
+                  "text": "Based on the survival rate, the FDR amount is released to the applicant."
+                }
+              ]
+            }
+          ],
+          "process_md": "> **Application Process:**\n\n**Step 1:** The interested applicant should visit (during office hours) the Divisional Forest Officer&#39;s office and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**OR**\nThe interested applicant downloads the application form[ ](https://jankalyanfile.rajasthan.gov.in//Content/UploadFolder/OrderEntry/ICOM/2025/Guidelines/O_030325_26f50adb-f7b4-4eb5-b94d-1e5e45451a85.pdf)from the [official website](https://forest.uk.gov.in/). \n**Step 2:** In the application form, fill in all the mandatory fields and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the respective Divisional Forest Officer&#39;s Office.\n> **NOTE:**\n\n\n- The applicant must agree to the creation of an FDR in the name of the Divisional or Joint Forest Officer.\n- The applicant must sign an agreement on a ₹10/- stamp paper.\n- Purchase plants at subsidized rates from recognized nurseries.\n- Transport and plant the saplings at own expense.\n\n> **Post-application Process:**\n\n**Step 1:** After 3 years, a joint inspection by Gram Pradhan, Van Panchayat Sarpanch, Forest Ranger, and Revenue Official evaluates the survival of planted trees.\n**Step 2:** Based on the survival rate, the FDR amount is released to the applicant.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Uttarakhand.\n1. The applicant should have either their own private land or a joint landholding suitable for plantation.\n1. There is no minimum land area requirement.\n1. The applicant is eligible to receive benefits for up to 100 plants per year under the scheme.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a permanent resident of Uttarakhand."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should have either their own private land or a joint landholding suitable for plantation."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "There is no minimum land area requirement."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant is eligible to receive benefits for up to 100 plants per year under the scheme."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "otows"
+  },
+  "atfy": {
+    "_id": "68552c00261391702fab9051",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Adventure Training",
+          "Youth",
+          "River Rafting Training",
+          "Trekking"
+        ],
+        "schemeName": "Adventure Training for Youth",
+        "schemeShortTitle": "ATFY",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce85cd6d1a3bde4685304",
+            "label": "Skills & Employment"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Training and Skill Up-gradation",
+            "label": "Training and Skill Up-gradation"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000058,
+          "label": "Department of Youth Welfare and Provincial Protection Corps"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 106)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s339e6f67916920d9419b3d92cf1e9a958/uploads/2025/03/202503051772421971.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The &amp;quot;Adventure Training for Youth&amp;quot; scheme was launched by the Department of Youth Welfare and Provincial Protection Corps, Government of Uttarakhand. The scheme aims to empower the youth of the state with adventure training skills, disaster preparedness, and confidence-building activities. Under this scheme, free training is provided to the youth in various adventure-based activities such as White Water River Rafting Guide training, disaster management and rescue, Burma Bridge, trekking, and other high-endurance courses.\n",
+        "benefits_md": "**Free Adventure and Disaster Training:**\nThe youth of the state are provided free training in various adventure training programmes like White Water River Rafting Guide Training, Disaster Management and Disaster Rescue Operations, First Aid, Burma Bridge, Trekking etc.\n",
+        "briefDescription": "Under this scheme, free training is provided to the youth in various adventure-based activities such as White Water River Rafting Guide training, disaster management and rescue, Burma Bridge, trekking, and other high-endurance courses.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The \"Adventure Training for Youth\" scheme was launched by the Department of Youth Welfare and Provincial Protection Corps, Government of Uttarakhand. The scheme aims to empower the youth of the state with adventure training skills, disaster preparedness, and confidence-building activities. Under this scheme, free training is provided to the youth in various adventure-based activities such as White Water River Rafting Guide training, disaster management and rescue, Burma Bridge, trekking, and other high-endurance courses."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 2,
+          "value": "in-kind",
+          "label": "In Kind"
+        },
+        "benefits": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Free Adventure and Disaster Training:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The youth of the state are provided free training in various adventure training programmes like White Water River Rafting Guide Training, Disaster Management and Disaster Rescue Operations, First Aid, Burma Bridge, Trekking etc."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Application Process:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "bold": true,
+                  "text": "Step 1: "
+                },
+                {
+                  "text": "The interested applicant should visit (during office hours) the office of the District Youth Welfare and Provincial Officer (PRD Office) and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2:",
+                  "bold": true
+                },
+                {
+                  "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attested, if required)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 3:",
+                  "bold": true
+                },
+                {
+                  "text": " Submit the duly filled and signed application form along with the documents to the concerned District Youth Welfare and Provincial Officer (PRD Office)."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Selection Process:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "ul_list",
+              "children": [
+                {
+                  "type": "list_item",
+                  "children": [
+                    {
+                      "text": "After document verification, candidates are shortlisted and recommended for training by the District Youth Welfare and PRD Officers."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Note",
+                  "bold": true,
+                  "underline": true
+                },
+                {
+                  "bold": true,
+                  "text": ":"
+                },
+                {
+                  "text": " The Department invites applications once a year through newspaper advertisements."
+                }
+              ]
+            }
+          ],
+          "process_md": "> **Application Process:**\n\n**Step 1:** The interested applicant should visit (during office hours) the office of the District Youth Welfare and Provincial Officer (PRD Office) and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the concerned District Youth Welfare and Provincial Officer (PRD Office).\n> **Selection Process:**\n\n\n- After document verification, candidates are shortlisted and recommended for training by the District Youth Welfare and PRD Officers.\n\n**Note****:** The Department invites applications once a year through newspaper advertisements.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a permanent resident of Uttarakhand.\n1. The applicant should be a male or female. \n1. The applicant should be between 15 to 30 years of age as on 1st March, 2023.\n1. The applicant should have passed at least class 8th.1. The applicant should be physically fit to undergo adventure training.\n1. The applicant should not be suffering from Heart disease, Asthma, Epilepsy, or have rods implanted in arms or legs.\n1. The applicant will be given preference if they belong to:\n\n\n- A volunteer of Provincial Armed Rural Development (PARD),\n- A member of the National Service Scheme (NSS),\n- A cadet of the National Cadet Corps (NCC),\n- A member/official of Yuvak or Mahila Mangal Dal.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a permanent resident of Uttarakhand."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a male or female. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be between 15 to 30 years of age as on 1st March, 2023."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should have passed at least class 8"
+                  },
+                  {
+                    "text": "th",
+                    "superscript": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be physically fit to undergo adventure training."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should not be suffering from Heart disease, Asthma, Epilepsy, or have rods implanted in arms or legs."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant will be given preference if they belong to:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A volunteer of Provincial Armed Rural Development (PARD),"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A member of the National Service Scheme (NSS),"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A cadet of the National Cadet Corps (NCC),"
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A member/official of Yuvak or Mahila Mangal Dal."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "atfy"
+  },
+  "sfyyrc": {
+    "_id": "67f62be9ca4dbdfd530e9c27",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Ration",
+          "Social Welfare",
+          "Food",
+          "Financial Assistance"
+        ],
+        "schemeName": "State Food Yojana (Yellow Ration Card)",
+        "schemeShortTitle": "SFYYRC",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce87cd6d1a3bde4685312",
+            "label": "Social welfare & Empowerment"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Food Security / Public Distribution System",
+            "label": "Food Security / Public Distribution System"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000012,
+          "label": "Department Of Food & Civil Supplies"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 60)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s30fe473396242072e84af286632d3f0ff/uploads/2025/02/20250227396322764.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "&amp;quot;State Food Yojana (Yellow Ration Card)&amp;quot; is a social welfare scheme implemented by the Department Of Food, Civil Supplies &amp;amp; Consumer Affairs, Government of Uttarakhand.Under this scheme, 7.50 K.G. rice per month at a cost of ₹11/- per K.G. is provided to the yellow ration card holder of the state.\n",
+        "benefits_md": "\n  - 7.50 K.G. rice per month at a cost of ₹11/- per K.G.\n\n<br>\n\n",
+        "briefDescription": "\"State Food Yojana (Yellow Ration Card)\" is a social welfare scheme implemented by the Department Of Food, Civil Supplies & Consumer Affairs, Government of Uttarakhand, that provides food per month at a nominal rate to the yellow ration card holder of the state.\n\n",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "\"State Food Yojana (Yellow Ration Card)\" is a social welfare scheme implemented by the Department Of Food, Civil Supplies & Consumer Affairs, Government of Uttarakhand.Under this scheme, 7.50 K.G. rice per month at a cost of ₹11/- per K.G. is provided to the yellow ration card holder of the state."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 2,
+          "value": "in-kind",
+          "label": "In Kind"
+        },
+        "benefits": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "7.50 K.G. rice per month at a cost of ₹11/- per K.G."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1:",
+                      "bold": true
+                    },
+                    {
+                      "text": " To apply for the Yellow Ration Card, the applicant needs to collect the application form from the office of the Panchayat Development Officer/ Supply Inspector/ Regional Food Officer/ District Supply Officer of the concerned area."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 2:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Attach all the mandatory documents( Self attested, if required)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 3:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Submit the application at the office of the Panchayat Development Officer/ Supply Inspector/ Regional Food Officer/ District Supply Officer of the concerned area."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 4: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "The concerned person can get the ration card by contacting the District Supply Office within 10 days."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "**Step 1:** To apply for the Yellow Ration Card, the applicant needs to collect the application form from the office of the Panchayat Development Officer/ Supply Inspector/ Regional Food Officer/ District Supply Officer of the concerned area.\n**Step 2:** Attach all the mandatory documents( Self attested, if required).\n**Step 3:** Submit the application at the office of the Panchayat Development Officer/ Supply Inspector/ Regional Food Officer/ District Supply Officer of the concerned area.\n**Step 4:** The concerned person can get the ration card by contacting the District Supply Office within 10 days.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n  - The applicant should be a permanent resident of Uttarakhand.\n  - Annual family income of the applicant should be ₹5,00,000/- or less.\n\n<br>\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant should be a permanent resident of Uttarakhand."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Annual family income of the applicant should be ₹5,00,000/- or less."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "sfyyrc"
+  },
+  "rsahps": {
+    "_id": "68554464261391702fac1152",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Financial Assistance",
+          "Health Promotion",
+          "Sports Promotion",
+          "Youth",
+          "Mangal Dal"
+        ],
+        "schemeName": "Rural Sports and Health Promotion Scheme",
+        "schemeShortTitle": "RSAHPS",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce7a2d6d1a3bde46852b1",
+            "label": "Health & Wellness"
+          },
+          {
+            "value": "628ce8aad6d1a3bde4685320",
+            "label": "Sports & Culture"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Health promotion",
+            "label": "Health promotion"
+          },
+          {
+            "value": "Financial assistance",
+            "label": "Financial assistance"
+          },
+          {
+            "value": "Sports & fitness",
+            "label": "Sports & fitness"
+          },
+          {
+            "value": "Aids/Appliances",
+            "label": "Aids/Appliances"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "joint-liability-groups",
+            "label": "Joint Liability Groups (JLGS)"
+          },
+          {
+            "value": "self-help-groups",
+            "label": "Self Help Groups (SHGS)"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000058,
+          "label": "Department of Youth Welfare and Provincial Protection Corps"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 106)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s339e6f67916920d9419b3d92cf1e9a958/uploads/2025/03/202503051772421971.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The scheme &amp;quot;Rural Sports and Health Promotion Scheme&amp;quot; was launched by the Department of Youth Welfare and Provincial Protection Corps, Government of Uttarakhand. The scheme aims to promote physical fitness and well-being among rural youth by establishing open gyms in village communities. An amount is provided to Mangal Dals for the installation of community fitness equipment (open gyms) in each Gram Panchayat.\n",
+        "benefits_md": "\n- A one-time financial grant of ₹17,960/- is allocated per gram panchayat for installing open gym/community fitness equipment to encourage fitness and well-being.\n\n",
+        "briefDescription": "The scheme promotes fitness among rural youth by providing financial assistance to the mangal dals for setting up open gyms in each Gram Panchayat.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The scheme \"Rural Sports and Health Promotion Scheme\" was launched by the Department of Youth Welfare and Provincial Protection Corps, Government of Uttarakhand. The scheme aims to promote physical fitness and well-being among rural youth by establishing open gyms in village communities. An amount is provided to Mangal Dals for the installation of community fitness equipment (open gyms) in each Gram Panchayat."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "A one-time financial grant of ₹17,960/- is allocated per gram panchayat for installing open gym/community fitness equipment to encourage fitness and well-being."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "At the Gram Panchayat level, a suitable location is identified for setting up the open gym, and a proposal is approved by the Gram Sabha."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Step 2: "
+                    },
+                    {
+                      "text": "The approved proposal is then submitted to the Regional Youth Welfare and Provincial Rakshak Dal Officer along with the required documents."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Step 3: "
+                    },
+                    {
+                      "text": "Once verified and approved, the allocated amount is disbursed to the Mangal Dal associated with the Gram Panchayat."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "**Step 1:** At the Gram Panchayat level, a suitable location is identified for setting up the open gym, and a proposal is approved by the Gram Sabha.\n**Step 2:** The approved proposal is then submitted to the Regional Youth Welfare and Provincial Rakshak Dal Officer along with the required documents.\n**Step 3:** Once verified and approved, the allocated amount is disbursed to the Mangal Dal associated with the Gram Panchayat.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a Gram Panchayat located within the state of Uttarakhand.\n1. The applicant should identify and allocate space within the village for the construction of an open gym.\n\n> **Note:** The allocated amount is distributed to the Mangal Dal associated with the Gram Panchayat.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a Gram Panchayat located within the state of Uttarakhand."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should identify and allocate space within the village for the construction of an open gym."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "block_quote",
+            "children": [
+              {
+                "text": "Note: ",
+                "bold": true
+              },
+              {
+                "text": "The allocated amount is distributed to the Mangal Dal associated with the Gram Panchayat."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "rsahps"
+  },
+  "ftutwd": {
+    "_id": "67ff9318321976fb6b060ef1",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "Widow",
+          "Transport Facilitiy",
+          "Free Bus Travel"
+        ],
+        "schemeName": "Free Travel in Uttarakhand Transport Corporation Buses to Widowed Daughters-in-law of Freedom Fighters",
+        "schemeShortTitle": "FTUTWD",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce87cd6d1a3bde4685312",
+            "label": "Social welfare & Empowerment"
+          }
+        ],
+        "schemeSubCategory": null,
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000052,
+          "label": "Department of Home"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 63)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s30fe473396242072e84af286632d3f0ff/uploads/2025/02/20250227396322764.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "&amp;quot;Free Travel in Uttarakhand Transport Corporation Buses to Widowed Daughters-in-law of Freedom Fighters&amp;quot; is a social welfare scheme implemented by the Home Department, Government of Uttarakhand. Under this scheme, free transport services are provided in Uttarakhand Transport Corporation Buses to the widowed daughters-in-laws of the Freedom Fighters of the state.\n<br>\n\n",
+        "benefits_md": "\n  - Free transport services in Uttarakhand Transport Corporation Buses to the widowed Daughters-in-laws of the Freedom Fighters of the state.\n\n",
+        "briefDescription": "\"Free Travel in Uttarakhand Transport Corporation Buses to Widowed Daughters-in-law of Freedom Fighters\" is a social welfare scheme that provides free transport services in Uttarakhand Transport Corporation Buses to the widowed daughters-in-laws of the Freedom Fighters of the state.\n\n",
+        "exclusions_md": "<br>\n\n",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "\"Free Travel in Uttarakhand Transport Corporation Buses to Widowed Daughters-in-law of Freedom Fighters\" is a social welfare scheme implemented by the Home Department, Government of Uttarakhand. Under this scheme, free transport services are provided in Uttarakhand Transport Corporation Buses to the widowed daughters-in-laws of the Freedom Fighters of the state."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 2,
+          "value": "in-kind",
+          "label": "In Kind"
+        },
+        "benefits": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Free transport services in Uttarakhand Transport Corporation Buses to the widowed Daughters-in-laws of the Freedom Fighters of the state."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exclusions": null
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1:",
+                      "bold": true
+                    },
+                    {
+                      "text": " The applicant needs to collect the prescribed application form from the office of the District Magistrate."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 2:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Attach all the mandatory documents (Self-attested, if required) along with the application form."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 3: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Submit the application at the office of the District Magistrate."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 4: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "After the successful verification, an Identity card will be provided to the applicant."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "process_md": "**Step 1:** The applicant needs to collect the prescribed application form from the office of the District Magistrate.\n**Step 2:** Attach all the mandatory documents (Self-attested, if required) along with the application form.\n**Step 3:** Submit the application at the office of the District Magistrate.\n**Step 4:** After the successful verification, an Identity card will be provided to the applicant.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n- The applicant should be a permanent resident of Uttarakhand.\n- The applicant should be a widowed daughter-in-law of a Freedom Fighters.\n- The applicant should have a valid Identity card for travel issued from the office of the District Magistrate.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "align_justify",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant should be a permanent resident of Uttarakhand."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant should be a widowed daughter-in-law of a Freedom Fighters."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "The applicant should have a valid Identity card for travel issued from the office of the District Magistrate."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "ftutwd"
+  },
+  "dprdv": {
+    "_id": "685811795e0f4cb6efc74eb2",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": false,
+        "tags": [
+          "PRD Volunteers",
+          "Rakshak Dal",
+          "Youth",
+          "Police Assistance"
+        ],
+        "schemeName": "Deployment of Prantiya Rakshak Dal (PRD) Volunteers",
+        "schemeShortTitle": "DPRDV",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce87cd6d1a3bde4685312",
+            "label": "Social welfare & Empowerment"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Financial assistance",
+            "label": "Financial assistance"
+          },
+          {
+            "value": "Crisis/Disaster/Accident",
+            "label": "Crisis/Disaster/Accident"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          },
+          {
+            "value": "family",
+            "label": "Family"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000058,
+          "label": "Department of Youth Welfare and Provincial Protection Corps"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 103)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s339e6f67916920d9419b3d92cf1e9a958/uploads/2025/03/202503051772421971.pdf"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The &amp;quot;Deployment of Prantiya Rakshak Dal (PRD) Volunteers&amp;quot; scheme was launched by the Department of Youth Welfare and Provincial Protection Corps. The scheme aims to provide financial security to PRD volunteers or their dependents in the event of death, disability, or injury sustained during duty. Under this scheme, PRD volunteers deployed to assist the police and serve in various government offices receive a daily honorarium. In cases of death, disability, or injury occurring during duty, financial assistance is provided to their legal dependents based on the nature and severity of the incident.\n&lt;br&gt;\n\n&lt;br&gt;\n\n",
+        "benefits_md": "1. PRD volunteers deployed for duty in police assistance and various government offices are paid an honorarium of ₹570/- per day.\n2. In different situations such as:\n\n  - Death during communal riots: ₹2,00,000/- \n  - Death during high-risk duties: ₹1,50,000/-\n  - Death during normal duties: ₹1,00,000/-\n\n**Note 1:** In case of permanent disability during duty, financial assistance is provided as per medical certification.\n**Note 2:** In case of temporary disability, an amount is provided as per the recommendation.\n",
+        "briefDescription": "Under this scheme, PRD volunteers deployed to assist the police and serve in various government offices receive a daily honorarium. In cases of death, disability, or injury occurring during duty, financial assistance is provided to their legal dependents based on the nature and severity of incident.",
+        "exclusions_md": "<br>\n\n",
+        "detailedDescription": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "The \"Deployment of Prantiya Rakshak Dal (PRD) Volunteers\" scheme was launched by the Department of Youth Welfare and Provincial Protection Corps. The scheme aims to provide financial security to PRD volunteers or their dependents in the event of death, disability, or injury sustained during duty. Under this scheme, PRD volunteers deployed to assist the police and serve in various government offices receive a daily honorarium. In cases of death, disability, or injury occurring during duty, financial assistance is provided to their legal dependents based on the nature and severity of the incident."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "align_justify",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "1. PRD volunteers deployed for duty in police assistance and various government offices are paid an honorarium of ₹570/- per day."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "2. In different situations such as:"
+                  }
+                ]
+              },
+              {
+                "type": "ul_list",
+                "children": [
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Death during communal riots: ₹2,00,000/- "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Death during high-risk duties: ₹1,50,000/-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "children": [
+                      {
+                        "text": "Death during normal duties: ₹1,00,000/-"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 1:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case of permanent disability during duty, financial assistance is provided as per medical certification."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note 2:",
+                    "bold": true
+                  },
+                  {
+                    "text": " In case of temporary disability, an amount is provided as per the recommendation."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exclusions": null
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Process of Deployment of PRD Volunteers:",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "align_justify",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 1:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Requests for PRD (Prantiya Rakshak Dal) volunteers are sent by various departments to the Department of Youth Welfare and PRD as per requirement."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 2:",
+                      "bold": true
+                    },
+                    {
+                      "text": " In response, the department issues a public advertisement inviting applications from eligible candidates."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 3: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Applicants are required to undergo a physical fitness test and medical examination. The dates for these assessments are set at the district level."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 4:",
+                      "bold": true
+                    },
+                    {
+                      "text": " Selection is based on physical fitness and merit. A district-level committee chaired by the District Magistrate is responsible for selecting suitable candidates."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 5: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "Selected PRD volunteers (trainees) undergo a 22-day basic training followed by a 15-day refresher training."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Step 6: ",
+                      "bold": true
+                    },
+                    {
+                      "text": "After completing training, volunteers are deployed on duty as required. They receive a daily honorarium, which is paid through the DBT."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Application Process (in case of death or disability of PRD volunteer):",
+                  "bold": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1: ",
+                  "bold": true
+                },
+                {
+                  "text": "In the event of the death or disability of a PRD volunteer, their dependent or nominee must submit the relevant documents to the District Youth Welfare and Prantiya Rakshak Dal Office. Or, "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "In case of the dependent being a minor or legal heir, the relevant documents must also be provided."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2:",
+                  "bold": true
+                },
+                {
+                  "text": " After verifying and assessing the situation, the department processes and releases the financial assistance to the eligible PRD volunteer or their legal dependent."
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Post-Application Process:",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1: ",
+                  "bold": true
+                },
+                {
+                  "text": "The department will assess the case (especially to confirm if the incident occurred in adverse circumstances during duty)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2: ",
+                  "bold": true
+                },
+                {
+                  "text": "Post verification, the approved compensation amount will be credited to the applicant's bank account."
+                }
+              ]
+            }
+          ],
+          "process_md": "**Process of Deployment of PRD Volunteers:**\n**Step 1:** Requests for PRD (Prantiya Rakshak Dal) volunteers are sent by various departments to the Department of Youth Welfare and PRD as per requirement.\n**Step 2:** In response, the department issues a public advertisement inviting applications from eligible candidates.\n**Step 3:** Applicants are required to undergo a physical fitness test and medical examination. The dates for these assessments are set at the district level.\n**Step 4:** Selection is based on physical fitness and merit. A district-level committee chaired by the District Magistrate is responsible for selecting suitable candidates.\n**Step 5:** Selected PRD volunteers (trainees) undergo a 22-day basic training followed by a 15-day refresher training.\n**Step 6:** After completing training, volunteers are deployed on duty as required. They receive a daily honorarium, which is paid through the DBT.\n**Application Process (in case of death or disability of PRD volunteer):**\n**Step 1:** In the event of the death or disability of a PRD volunteer, their dependent or nominee must submit the relevant documents to the District Youth Welfare and Prantiya Rakshak Dal Office. Or, \nIn case of the dependent being a minor or legal heir, the relevant documents must also be provided.\n**Step 2:** After verifying and assessing the situation, the department processes and releases the financial assistance to the eligible PRD volunteer or their legal dependent.\n> **Post-Application Process:**\n\n**Step 1:** The department will assess the case (especially to confirm if the incident occurred in adverse circumstances during duty).\n**Step 2:** Post verification, the approved compensation amount will be credited to the applicant&#39;s bank account.\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant should be a resident of Uttarakhand.\n1. The applicant should be a trained Prantiya Rakshak Dal (PRD) volunteer or the legal dependent of a PRD volunteer (in case of the volunteer’s death).\n1. The PRD volunteer should be between 18 and 42 years of age.\n1. The volunteer should die, be disabled, or have an accident during the duty.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a resident of Uttarakhand."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant should be a trained Prantiya Rakshak Dal (PRD) volunteer or the legal dependent of a PRD volunteer (in case of the volunteer’s death)."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The PRD volunteer should be between 18 and 42 years of age."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The volunteer should die, be disabled, or have an accident during the duty."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "dprdv"
+  },
+  "srss": {
+    "_id": "68514827df7f9910b3bdd379",
+    "en": {
+      "basicDetails": {
+        "dbtScheme": null,
+        "tags": [
+          "Scholarship",
+          "Student",
+          "PhD"
+        ],
+        "schemeName": "Sanskrit Research Scholarship Scheme",
+        "schemeShortTitle": "SRSS",
+        "level": {
+          "value": "state",
+          "label": "State/ UT"
+        },
+        "schemeCategory": [
+          {
+            "value": "628ce76cd6d1a3bde4685292",
+            "label": "Education & Learning"
+          }
+        ],
+        "schemeSubCategory": [
+          {
+            "value": "Scholarships and student finance",
+            "label": "Scholarships and student finance"
+          }
+        ],
+        "schemeOpenDate": null,
+        "targetBeneficiaries": [
+          {
+            "value": "individual",
+            "label": "Individual"
+          }
+        ],
+        "state": {
+          "value": 5,
+          "label": "Uttarakhand"
+        },
+        "nodalDepartmentName": {
+          "value": 50000017,
+          "label": "Department Of Sanskrit Education"
+        }
+      },
+      "schemeContent": {
+        "references": [
+          {
+            "title": "Guidelines (Page No. 91)",
+            "url": "https://cdnbbsr.s3waas.gov.in/s339e6f67916920d9419b3d92cf1e9a958/uploads/2025/03/202503051772421971.pdf"
+          },
+          {
+            "title": "Official Website",
+            "url": "https://www.uksa.ac.in/index.php"
+          }
+        ],
+        "schemeImageUrl": "",
+        "detailedDescription_md": "The &quot;Sanskrit Research Scholarship Scheme&quot; was launched by the Department of Sanskrit Education, Government of Uttarakhand. It aims to promote advanced academic research in the field of sanskrit by providing financial assistance to meritorious Ph.D. scholars. Under this scheme, an annual scholarship is provided for up to 3 years to 20 selected Ph.D. students pursuing Sanskrit across state universities. It ensures that deserving candidates from the General, Scheduled Castes, Scheduled Tribes, and Economically Weaker Sections receive support to complete their doctoral research.\n<br>\n\n<br>\n\n",
+        "benefits_md": "**Financial Assistance:**\n\n- Each selected student receives ₹40,000/- per year for a period of 3 years, totaling up to ₹1,20,000/-.\n\n**Total Beneficiaries:**\n\n- 20 research scholars are selected annually.\n\n",
+        "briefDescription": "The scheme provides an annual scholarship of ₹40,000/- for up to three years to selected students pursuing Ph.D. research in Sanskrit.",
+        "exclusions_md": "",
+        "detailedDescription": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The \"Sanskrit Research Scholarship Scheme\" was launched by the Department of Sanskrit Education, Government of Uttarakhand. It aims to promote advanced academic research in the field of sanskrit by providing financial assistance to meritorious Ph.D. scholars. Under this scheme, an annual scholarship is provided for up to 3 years to 20 selected Ph.D. students pursuing Sanskrit across state universities. It ensures that deserving candidates from the General, Scheduled Castes, Scheduled Tribes, and Economically Weaker Sections receive support to complete their doctoral research."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          }
+        ],
+        "benefitTypes": {
+          "id": 1,
+          "value": "cash",
+          "label": "Cash"
+        },
+        "benefits": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Financial Assistance:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "Each selected student receives ₹40,000/- per year for a period of 3 years, totaling up to ₹1,20,000/-."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Total Beneficiaries:",
+                "bold": true,
+                "underline": true
+              }
+            ]
+          },
+          {
+            "type": "ul_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "20 research scholars are selected annually."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "applicationProcess": [
+        {
+          "mode": "Offline",
+          "process": [
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Advertisement for applications is published annually in local newspapers and on the official ",
+                  "bold": true
+                },
+                {
+                  "type": "link",
+                  "link": "https://www.uksa.ac.in/index.php",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "website "
+                    }
+                  ]
+                },
+                {
+                  "bold": true,
+                  "text": "of the "
+                },
+                {
+                  "type": "link",
+                  "link": "https://www.uksa.ac.in/",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Uttarakhand Sanskrit Academy"
+                    }
+                  ]
+                },
+                {
+                  "bold": true,
+                  "text": ":"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1: ",
+                  "bold": true
+                },
+                {
+                  "text": "The interested applicant should visit (during office hours) the Uttarakhand Sanskrit Academy and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2:",
+                  "bold": true
+                },
+                {
+                  "text": " In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attested, if required)."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 3:",
+                  "bold": true
+                },
+                {
+                  "text": " Submit the duly filled and signed application form along with the documents to the Uttarakhand Sanskrit Academy."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "text": "Selection Process:",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1: ",
+                  "bold": true
+                },
+                {
+                  "text": "Applications are reviewed by a selection committee which shortlists eligible candidates based on NET exam scores and category-based reservations."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 2: ",
+                  "bold": true
+                },
+                {
+                  "text": "Selected candidates are informed via official communication and scholarship disbursal begins thereafter."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "",
+                  "bold": true,
+                  "italic": true,
+                  "underline": true
+                }
+              ]
+            },
+            {
+              "type": "block_quote",
+              "children": [
+                {
+                  "bold": true,
+                  "italic": true,
+                  "underline": true,
+                  "text": "Renewal Process"
+                },
+                {
+                  "bold": true,
+                  "text": ":"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": "Step 1: ",
+                  "bold": true
+                },
+                {
+                  "text": "The scholarship must be renewed each year by reapplying with relevant documents and progress updates."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ],
+          "process_md": "> **Advertisement for applications is published annually in local newspapers and on the official** [**website** ](https://www.uksa.ac.in/index.php)**of the** [**Uttarakhand Sanskrit Academy**](https://www.uksa.ac.in/)**:**\n\n**Step 1:** The interested applicant should visit (during office hours) the Uttarakhand Sanskrit Academy and request a hard copy of the prescribed format of the application form from the staff exclusively entrusted to issue and collect filled-in applications.\n**Step 2:** In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attested, if required).\n**Step 3:** Submit the duly filled and signed application form along with the documents to the Uttarakhand Sanskrit Academy.\n<br>\n\n> ***Selection Process:***\n\n**Step 1:** Applications are reviewed by a selection committee which shortlists eligible candidates based on NET exam scores and category-based reservations.\n**Step 2:** Selected candidates are informed via official communication and scholarship disbursal begins thereafter.\n<br>\n\n> ***Renewal Process*****:**\n\n**Step 1:** The scholarship must be renewed each year by reapplying with relevant documents and progress updates.\n<br>\n\n"
+        }
+      ],
+      "schemeDefinitions": [],
+      "eligibilityCriteria": {
+        "eligibilityDescription_md": "\n1. The applicant must belong to the General, Scheduled Caste, Scheduled Tribe, and Economically Weaker Section. \n1. The applicant must have appeared in the National Eligibility Test (NET) and obtained high marks.\n1. The applicant must be registered for a Ph.D. in Sanskrit at any recognized university within the state.\n\n",
+        "eligibilityDescription": [
+          {
+            "type": "ol_list",
+            "children": [
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must belong to the General, Scheduled Caste, Scheduled Tribe, and Economically Weaker Section. "
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must have appeared in the National Eligibility Test (NET) and obtained high marks."
+                  }
+                ]
+              },
+              {
+                "type": "list_item",
+                "children": [
+                  {
+                    "text": "The applicant must be registered for a Ph.D. in Sanskrit at any recognized university within the state."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "slug": "srss"
+  }
+}
