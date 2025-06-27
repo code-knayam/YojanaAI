@@ -9,6 +9,10 @@ import 'dotenv/config';
 const ENDPOINT = `https://api.myscheme.gov.in/search/v4/schemes?lang=en`;
 const DETAILS_ENDPOINT = `https://api.myscheme.gov.in/schemes/v5/public/schemes?lang=en&slug=`;
 
+// Ensure the data directory exists at the project root
+const rootDataDir = path.resolve(__dirname, '..', 'data');
+const rootDetailsDir = path.resolve(rootDataDir, 'scheme-details');
+
 function getHeaders() {
     return {
         'accept': 'application/json, text/plain, */*',
@@ -63,19 +67,17 @@ async function scrapeData() {
     // Map to JSON-friendly structure (sanitized)
     const records = allItems.map(item => item);
 
-    // Ensure the data directory exists
-    const dataDir = 'data';
-    if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir, { recursive: true });
+    // Ensure the root data directory exists
+    if (!fs.existsSync(rootDataDir)) {
+        fs.mkdirSync(rootDataDir, { recursive: true });
     }
-    const outPath = path.join(dataDir, 'schemes.json');
-
+    const outPath = path.join(rootDataDir, 'schemes.json');
     fs.writeFileSync(outPath, JSON.stringify(records, null, 2), 'utf-8');
     console.log(`JSON file written: ${outPath}`);
 }
 
 function getSlugsFromSchemes(): string[] {
-    const data = fs.readFileSync('schemes.json', 'utf-8');
+    const data = fs.readFileSync(path.join(rootDataDir, 'schemes.json'), 'utf-8');
     const schemes = JSON.parse(data);
     return schemes.map((item: any) => item.fields?.slug || '').filter((slug: string) => !!slug);
 }
@@ -93,9 +95,9 @@ async function scrapeSchemeDetails() {
     const BATCH_SIZE = 100;
     const BATCH_DELAY_MS = 60 * 1000; // 1 minute
 
-    const detailsDir = path.join('data', 'scheme-details');
-    if (!fs.existsSync(detailsDir)) {
-        fs.mkdirSync(detailsDir, { recursive: true });
+    // Ensure the root details directory exists
+    if (!fs.existsSync(rootDetailsDir)) {
+        fs.mkdirSync(rootDetailsDir, { recursive: true });
     }
 
     const batches = chunkArray(slugIds, BATCH_SIZE);
@@ -130,10 +132,9 @@ async function scrapeSchemeDetails() {
             }
         }
 
-        // Save progress after each batch in the subfolder
-        const outPath = path.join(detailsDir, `schemes-details-${batchIdx}.json`);
+        // Save progress after each batch in the root details subfolder
+        const outPath = path.join(rootDetailsDir, `schemes-details-${batchIdx}.json`);
         fs.writeFileSync(outPath, JSON.stringify(schemeDetails, null, 2), 'utf-8');
-
         console.log(`Batch ${batchIdx + 1} complete. JSON file updated.`);
 
         if (batchIdx < batches.length - 1) {
