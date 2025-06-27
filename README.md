@@ -16,6 +16,7 @@ YojanaAI/
   backend/    # FastAPI, OpenAI, ChromaDB, Redis
   frontend/   # Angular, Firebase Auth, Chat UI
   scripts/    # Node JS
+  data/       # Scheme details json
 ```
 
 ## 🛠️ Quick Start
