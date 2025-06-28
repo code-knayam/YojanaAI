@@ -12,16 +12,17 @@ import { FormsModule } from '@angular/forms';
 import { ApiService } from '../services/api.service';
 import { httpResource } from '@angular/common/http';
 import { MessageService } from '../services/message.service';
-import { ChatMessage, ChatResponse, Role } from '../chat';
+import { ChatMessage, ChatResponse, Role, Scheme } from '../chat';
 import { MESSAGES } from '../messages';
 import { UserService } from '../services/user.service';
 import { SafeHtml } from '@angular/platform-browser';
+import { SchemeCardComponent } from '../scheme-card/scheme-card.component';
 
 @Component({
     selector: 'app-chat-window',
     templateUrl: './chat-window.component.html',
     styleUrls: ['./chat-window.component.scss'],
-    imports: [FormsModule],
+    imports: [FormsModule, SchemeCardComponent],
 })
 export class ChatWindowComponent {
     readonly ROLE = Role;
@@ -31,7 +32,7 @@ export class ChatWindowComponent {
     private api = inject(ApiService);
 
     messages = signal<ChatMessage[]>([
-        this.messageService.getWelcomMessage()
+        this.messageService.getWelcomMessage(),
     ]);
 
     userInput = signal('');
@@ -86,6 +87,36 @@ export class ChatWindowComponent {
                 }
             }, 0);
         });
+
+    }
+
+    private parseLinks(linksString: string): Array<{ label: string, url: string }> {
+        if (!linksString || typeof linksString !== 'string') {
+            return [];
+        }
+
+        const links: Array<{ label: string, url: string }> = [];
+        const linkParts = linksString.split(' | ');
+
+        for (const part of linkParts) {
+            const colonIndex = part.indexOf(':');
+            if (colonIndex !== -1) {
+                const label = part.substring(0, colonIndex).trim();
+                const url = part.substring(colonIndex + 1).trim();
+                if (label && url) {
+                    links.push({ label, url });
+                }
+            }
+        }
+
+        return links;
+    }
+
+    private processResults(results: Scheme[]): Scheme[] {
+        return results.map(result => ({
+            ...result,
+            parsedLinks: this.parseLinks(result.links || '')
+        }));
     }
 
     private handleApiResponse(value: ChatResponse): void {
@@ -95,12 +126,12 @@ export class ChatWindowComponent {
 
         if (value.followup_needed) {
             if (value.results && value.results.length > 0) {
-                replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.RECOMMENDATIONS, value.results));
+                replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.RECOMMENDATIONS, this.processResults(value.results)));
             }
 
             replies.push(this.messageService.createNewMessage(Role.AI, value.message))
         } else if (value.results?.length || value.message) {
-            replies.push(this.messageService.createNewMessage(Role.AI, value.message ?? MESSAGES.MATCHING, value.results));
+            replies.push(this.messageService.createNewMessage(Role.AI, value.message ?? MESSAGES.MATCHING, this.processResults(value.results)));
         } else {
             replies.push(this.messageService.createNewMessage(Role.AI, MESSAGES.ERROR_MESSAGE))
         }

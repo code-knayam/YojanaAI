@@ -1,0 +1,50 @@
+<div class="scheme-card">
+    <div class="scheme-header">
+        <div class="scheme-title">{{ scheme().name }}</div>
+        @if(scheme().level) {
+        <div class="scheme-level">{{ scheme().level }}</div>
+        }
+    </div>
+
+    @if(scheme().department) {
+    <div class="scheme-field">
+        <span class="label">Department:</span> {{ scheme().department }}
+    </div>
+    }
+
+    @if(scheme().state) {
+    <div class="scheme-field">
+        <span class="label">State:</span> {{ scheme().state }}
+    </div>
+    }
+
+    @if(scheme().category) {
+    <div class="scheme-field">
+        <span class="label">Category:</span> {{ scheme().category }}
+    </div>
+    }
+
+    @if(scheme().beneficiaries) {
+    <div class="scheme-field">
+        <span class="label">Beneficiaries:</span> {{ scheme().beneficiaries }}
+    </div>
+    }
+
+    @if(scheme().description) {
+    <div class="scheme-field" [title]="scheme().description">
+        <span class="label">Description:</span>{{ scheme().description | slice:0:200 }}
+    </div>
+    }
+
+    @if(scheme().reason) {
+    <div class="scheme-field">
+        <span class="label">Why this scheme:</span> {{ scheme().reason }}
+    </div>
+    }
+
+    <div class="scheme-actions">
+        @for (link of scheme().parsedLinks; track link.url) {
+        <a class="scheme-link" [href]="link.url" target="_blank">{{ link.label }}</a>
+        }
+    </div>
+</div>

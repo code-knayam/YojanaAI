@@ -9,11 +9,7 @@
                 @if(message.schemes?.length) {
                 <div class="schemes-list schemes-row">
                     @for (scheme of message.schemes; track $index) {
-                    <div class="scheme-card">
-                        <div class="scheme-title">{{ scheme.name }}</div>
-                        <div class="scheme-reason">{{ scheme.reason }}</div>
-                        <a class="scheme-link" [href]="scheme.link" target="_blank">View Details</a>
-                    </div>
+                    <app-scheme-card [scheme]="scheme" />
                     }
                 </div>
                 }

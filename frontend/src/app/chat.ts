@@ -9,6 +9,22 @@ export interface Scheme {
     name: string;
     reason: string;
     link: string;
+    level?: string;
+    department?: string;
+    category?: string;
+    ageText?: string;
+    beneficiaries?: string;
+    description?: string;
+    agency?: string;
+    benefitType?: string;
+    benefits?: string;
+    exclusions?: string;
+    eligibility?: string;
+    applicationProcess?: string;
+    tags?: string[];
+    state?: string;
+    links?: string;
+    parsedLinks?: Array<{ label: string, url: string }>;
 }
 
 export interface ChatMessage {
