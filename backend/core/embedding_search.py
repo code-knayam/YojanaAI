@@ -1,10 +1,9 @@
-import uuid
 import os
-import json
 from typing import List, Dict
 import chromadb
 from chromadb.config import Settings
 from openai import OpenAI
+from core.utils import get_age_text, prepare_scheme_for_metadata
 
 PERSIST_DIR = "./chroma_db"
 SCHEMES_COLLECTION = "schemes"
@@ -37,17 +36,22 @@ async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = Fal
     collection = chroma_client.create_collection(name=SCHEMES_COLLECTION)
 
     for scheme in schemes:
-        scheme_id = scheme.get("id") or str(uuid.uuid4())
+        scheme_id = scheme.get("id")
 
-        if isinstance(scheme.get("keywords"), list):
-            scheme["keywords"] = ", ".join(scheme["keywords"])
-
-        text = " | ".join([
-            scheme.get("name", ""),
-            scheme.get("purpose", ""),
-            scheme.get("eligibility", ""),
-            scheme.get("sector", "")
-        ])
+        text = " | ".join(filter(None, [
+            scheme.get("name", "") or "",
+            scheme.get("description", "") or "",
+            "Eligibility: " + (scheme.get("eligibility", "") or ""),
+            get_age_text(scheme.get("ageLimits", {})) or "",
+            "Tags: " + ", ".join(filter(None, scheme.get("tags", []))) if isinstance(scheme.get("tags"), list) else (scheme.get("tags") or ""),
+            "Categories: " + ", ".join(scheme.get("category", [])) if isinstance(scheme.get("category"), list) else (scheme.get("category") or ""),
+            "State: " + (scheme.get("state") or ""),
+            "Level: " + (scheme.get("level") or ""),
+            "Department: " + (scheme.get("department") or ""),
+            "Benefit Type: " + (scheme.get("benefitType") or ""),
+            "Agency: " + (scheme.get("agency") or ""),
+            "Beneficiaries: " + ", ".join(scheme.get("beneficiaries", [])) if isinstance(scheme.get("beneficiaries"), list) else (scheme.get("beneficiaries") or "")
+        ]))
 
         response = client.embeddings.create(
             input=text,
@@ -58,7 +62,7 @@ async def index_schemes(schemes: List[Dict[str, any]], force_reindex: bool = Fal
         collection.add(
             ids=[scheme_id],
             embeddings=[embedding],
-            metadatas=[scheme]
+            metadatas=[prepare_scheme_for_metadata(scheme)]
         )
 
     print("Embeddings indexed and stored successfully.")
@@ -75,4 +79,5 @@ async def query_schemes(user_query: str, top_k: int = 10) -> List[Dict[str, any]
 
     query_embedding = response.data[0].embedding
     result = collection.query(query_embeddings=[query_embedding], n_results=top_k)
+    
     return result.get("metadatas", [[]])[0]

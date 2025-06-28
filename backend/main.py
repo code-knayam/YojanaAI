@@ -4,8 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 from service.recommendation import get_scheme_response
-from service.reindex import load_schemes
-from core.embedding_search import index_schemes
+from service.reindex import reindex_schemes
 from contextlib import asynccontextmanager
 from agents import set_tracing_export_api_key
 import redis.asyncio as redis
@@ -50,16 +49,15 @@ async def refine_endpoint(payload: SchemeQuery, user=Depends(verify_firebase_tok
         raise HTTPException(status_code=200, detail=str(e))
 
 # Re-indexing endpoint
-@app.post("/reindex", dependencies=[
-    Depends(RateLimiter(times=1, seconds=86400))    # 1 request per day
-])
-async def trigger_reindex(user=Depends(verify_firebase_token)):
-    try:
-        schemes = load_schemes()
-        await index_schemes(schemes, force_reindex=True)
-        return {"message": "Re-indexing complete."}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+# @app.post("/reindex", dependencies=[
+#     Depends(RateLimiter(times=100, seconds=86400))    # 1 request per day
+# ])
+# async def trigger_reindex():
+#     try:
+#         await reindex_schemes()
+#         return {"message": "Re-indexing complete."}
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
 
 # Health
 @app.get("/health")

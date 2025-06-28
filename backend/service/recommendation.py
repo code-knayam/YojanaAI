@@ -32,9 +32,11 @@ async def get_followup_question(combined_query: str, summarized_schemes: list):
 
 async def get_scheme_response(conversation_history: List[str], current_input: str) -> Dict[str, Union[str, List[Dict[str, any]]]]:
     combined_query = combine_conversation(conversation_history, current_input)
+
     logger.info(f"combined query from user: {combined_query}")
 
     matched_schemes = await query_schemes(combined_query, top_k=25)
+    
     logger.info(f"Initial matched scheme count: {len(matched_schemes)}")
     
     summarized_schemes = [summarize_scheme(s) for s in matched_schemes]
