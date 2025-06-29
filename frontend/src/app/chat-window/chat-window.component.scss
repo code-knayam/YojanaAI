@@ -129,9 +129,8 @@
     display: flex;
     flex-direction: row;
     gap: 1.2rem;
-    margin-top: 1.2rem;
     overflow-x: auto;
-    padding-bottom: 0.5rem;
+    padding: 1.2rem 0;
     scrollbar-width: thin;
     scrollbar-color: var(--accent) var(--border);
 }
@@ -152,11 +151,13 @@
     .chat-messages {
         padding: 1rem;
         margin-bottom: 100px;
-    }
 
-    // .chat-message.ai .message-content {
-    //     padding: 0 1rem;
-    // }
+        .ai {
+            .message-content {
+                max-width: 90%;
+            }
+        }
+    }
 
     .chat-input {
         padding: 1rem;
