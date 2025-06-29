@@ -14,20 +14,9 @@
     ],
     "redirects": [
       {
-        "source": "/**",
+        "source": "yojanaai.firebaseapp.com",
         "destination": "https://yojanaai.in",
-        "type": 301,
-        "glob": "**",
-        "locale": "en",
-        "hostname": "yojanaai.web.app"
-      },
-      {
-        "source": "/**",
-        "destination": "https://yojanaai.in",
-        "type": 301,
-        "glob": "**",
-        "locale": "en",
-        "hostname": "yojanaai.firebaseapp.com"
+        "type": 301
       }
     ]
   }
