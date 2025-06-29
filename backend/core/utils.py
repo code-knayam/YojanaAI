@@ -16,7 +16,7 @@ def parse_matched_schemes(agent_output: str) -> Tuple[str, List[Dict[str, any]],
     try:
         parsed = json.loads(cleaned_output)
         if isinstance(parsed, dict) and "message" in parsed and "schemes" in parsed:
-            return parsed["message"], parsed["schemes"], parsed.get("too_vague", False)
+            return parsed["message"], parsed["schemes"]
         elif isinstance(parsed, list):
             return "Here are some schemes that match your requirement:", parsed, False
         else:

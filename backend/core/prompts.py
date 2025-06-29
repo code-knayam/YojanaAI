@@ -14,9 +14,8 @@ Return the final response strictly as a JSON object in the following format:
   "message": "<A short sentence summarizing the match>",
   "schemes": [
     {
-      "name": "<Scheme Name>",
-      "reason": "<Why this scheme is suitable>",
-      "link": "<Relevant URL if known>"
+      "id": "<Scheme_id>",
+      "reason": "<Why this scheme is suitable>"
     },
     ...
   ]
@@ -59,14 +58,6 @@ Conversation Context: \"{query}\"
 Available Schemes:
 {json.dumps(schemes, indent=2)}
 
-Respond in the following JSON format:
-
-{{
-  "message": "Summary of why these schemes are useful",
-  "schemes": [
-    {{ "name": "Scheme Name", "reason": "Why this scheme matches", "link": "https://example.com" }}
-  ]
-}}
 Only return valid JSON, no extra commentary.
 """
 

@@ -10,11 +10,32 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def summarize_scheme(scheme: Dict[str, str]) -> Dict[str, str]:
-    """Summarize a scheme's relevant fields for prompt use."""
+    """Summarize a scheme's relevant fields for use in the Recommendation Agent prompt."""
+    
+    # Fallback helpers
+    def safe(val, fallback="N/A"):
+        return val if val else fallback
+
+    def short(text, limit=100):
+        return text[:limit].strip() + ("..." if len(text) > limit else "")
+    
+    # Compose the summary
+    summary = (
+        f"Id: {scheme.get('id')} "
+        f"{scheme.get('name', 'Unnamed Scheme')} "
+        f"is a {safe(scheme.get('benefitType'), 'benefit')} scheme by the "
+        f"{safe(scheme.get('department'), 'concerned department')} in {safe(scheme.get('state'), 'India')}.\n"
+        f"Target group: {', '.join(scheme.get('beneficiaries', [])) if isinstance(scheme.get('beneficiaries'), list) else safe(scheme.get('beneficiaries'))}.\n"
+        f"Eligibility: {short(scheme.get('eligibility', 'N/A'), 150)}\n"
+        f"Purpose: {short(scheme.get('description') or scheme.get('purpose'), 200)}\n"
+        f"Benefit Amount: {safe(scheme.get('amount_range')) or safe(scheme.get('benefits'), 'N/A')}"
+    )
+
     return {
-        "name": scheme.get("name", ""),
-        "summary": f"For {scheme.get('sector', 'varied needs')} in {scheme.get('location', 'India')}. Eligibility: {scheme.get('eligibility', 'N/A')[:80]}... Purpose: {scheme.get('purpose', '')[:100]}... Amount: {scheme.get('amount_range', 'N/A')}"
+        "name": scheme.get("name", "Unnamed Scheme"),
+        "summary": summary
     }
+
 
 async def get_followup_question(combined_query: str, summarized_schemes: list):
     decision_agent = Agent(
@@ -75,12 +96,23 @@ async def get_scheme_response(conversation_history: List[str], current_input: st
     match_response = await Runner.run(matcher_agent, matching_prompt)
 
     try:
-        message, parsed_schemes, too_vague = parse_matched_schemes(match_response.final_output)
+        message, parsed_schemes = parse_matched_schemes(match_response.final_output)
+        
         logger.info(f"Final schemes returned: {len(parsed_schemes)}")
+
+        # Create a mapping of scheme IDs to full scheme details
+        scheme_map = {scheme.get("id"): scheme for scheme in matched_schemes}
+        
+        # Map parsed schemes to full scheme details using list comprehension
+        mapped_schemes = [
+            {**scheme_map[parsed_scheme["id"]], "reason": parsed_scheme.get("reason", "")}
+            for parsed_scheme in parsed_schemes
+            if parsed_scheme.get("id") in scheme_map
+        ]
 
         return {
             "message": message,
-            "results": parsed_schemes
+            "results": mapped_schemes
         }
 
     except Exception as e:
