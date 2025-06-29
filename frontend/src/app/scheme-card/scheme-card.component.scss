@@ -11,9 +11,12 @@
     gap: 0.8rem;
     flex: 0 0 auto;
     transition: border 0.2s;
+    cursor: pointer;
 
     &:hover {
         border-color: var(--accent);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
 
     .scheme-header {
@@ -63,20 +66,21 @@
         margin-top: 0.5rem;
         padding-top: 0.8rem;
         border-top: 1px solid var(--border);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
     }
 
     .scheme-link {
         color: var(--accent);
         font-weight: 500;
         text-decoration: none;
-        font-size: 0.75rem;
-        align-self: flex-start;
+        font-size: 0.85rem;
         transition: color 0.2s;
         display: inline-block;
         padding: 0.3rem 0.8rem;
         background: rgba(22, 160, 133, 0.1);
         border-radius: 0.4rem;
-        margin: 0.4rem;
 
         &:hover {
             color: var(--accent-hover);

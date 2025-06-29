@@ -1,0 +1,117 @@
+<div class="overlay" (click)="closeOverlay()">
+    <div class="overlay-content" (click)="$event.stopPropagation()">
+        <div class="overlay-header">
+            <h2>{{ scheme().name }}</h2>
+            <button class="close-btn" (click)="closeOverlay()">×</button>
+        </div>
+
+        <div class="overlay-body">
+            @if(scheme().level) {
+            <div class="detail-section">
+                <span class="label">Level:</span> {{ scheme().level }}
+            </div>
+            }
+
+            @if(scheme().department) {
+            <div class="detail-section">
+                <span class="label">Department:</span> {{ scheme().department }}
+            </div>
+            }
+
+            @if(scheme().state) {
+            <div class="detail-section">
+                <span class="label">State:</span> {{ scheme().state }}
+            </div>
+            }
+
+            @if(scheme().category) {
+            <div class="detail-section">
+                <span class="label">Category:</span> {{ scheme().category }}
+            </div>
+            }
+
+            @if(scheme().ageText) {
+            <div class="detail-section">
+                <span class="label">Age Eligibility:</span> {{ scheme().ageText }}
+            </div>
+            }
+
+            @if(scheme().beneficiaries) {
+            <div class="detail-section">
+                <span class="label">Beneficiaries:</span> {{ scheme().beneficiaries }}
+            </div>
+            }
+
+            @if(scheme().agency) {
+            <div class="detail-section">
+                <span class="label">Implementing Agency:</span> {{ scheme().agency }}
+            </div>
+            }
+
+            @if(scheme().tags) {
+            <div class="detail-section">
+                <span class="label">Tags:</span> {{ scheme().tags }}
+            </div>
+            }
+
+            @if(scheme().description) {
+            <div class="detail-section">
+                <span class="label">Description:</span>
+                <div class="description-text" [innerHTML]="scheme().description"></div>
+            </div>
+            }
+
+            @if(scheme().benefits) {
+            <div class="detail-section">
+                <span class="label">Benefits:</span>
+                <div class="description-text" [innerHTML]="scheme().benefits"></div>
+            </div>
+            }
+
+            @if(scheme().eligibility) {
+            <div class="detail-section">
+                <span class="label">Eligibility Criteria:</span>
+                <div class="description-text" [innerHTML]="scheme().eligibility"></div>
+            </div>
+            }
+
+            @if(scheme().applicationProcess) {
+            <div class="detail-section">
+                <span class="label">Application Process:</span>
+                <div class="description-text" [innerHTML]="scheme().applicationProcess"></div>
+            </div>
+            }
+
+            @if(scheme().exclusions) {
+            <div class="detail-section">
+                <span class="label">Exclusions:</span>
+                <div class="description-text" [innerHTML]="scheme().exclusions"></div>
+            </div>
+            }
+
+            @if(scheme().benefitType) {
+            <div class="detail-section">
+                <span class="label">Benefit Type:</span> {{ scheme().benefitType }}
+            </div>
+            }
+
+            @if(scheme().reason) {
+            <div class="detail-section">
+                <span class="label">Why this scheme:</span>
+                <div class="description-text">{{ scheme().reason }}</div>
+            </div>
+            }
+
+            @if(scheme().parsedLinks?.length) {
+            <div class="detail-section">
+                <span class="label">Useful Links:</span>
+                <div class="links-grid">
+                    @for (link of scheme().parsedLinks; track link.url) {
+                    <a class="link-item" [href]="link.url" target="_blank">{{ link.label }}</a>
+                    }
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

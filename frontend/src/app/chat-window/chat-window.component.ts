@@ -87,7 +87,6 @@ export class ChatWindowComponent {
                 }
             }, 0);
         });
-
     }
 
     private parseLinks(linksString: string): Array<{ label: string, url: string }> {

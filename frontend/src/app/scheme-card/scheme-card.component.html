@@ -1,4 +1,4 @@
-<div class="scheme-card">
+<div class="scheme-card" (click)="openOverlay()">
     <div class="scheme-header">
         <div class="scheme-title">{{ scheme().name }}</div>
         @if(scheme().level) {
@@ -32,7 +32,7 @@
 
     @if(scheme().description) {
     <div class="scheme-field" [title]="scheme().description">
-        <span class="label">Description:</span>{{ scheme().description | slice:0:200 }}
+        <span class="label">Description:</span><span [innerHTML]="scheme().description | slice:0:200"></span>
     </div>
     }
 
@@ -44,7 +44,12 @@
 
     <div class="scheme-actions">
         @for (link of scheme().parsedLinks; track link.url) {
-        <a class="scheme-link" [href]="link.url" target="_blank">{{ link.label }}</a>
+        <a class="scheme-link" [href]="link.url" target="_blank" (click)="$event.stopPropagation()">{{ link.label }}</a>
         }
     </div>
 </div>
+
+<!-- Details Overlay -->
+@if(showOverlay()) {
+<app-scheme-overlay [scheme]="scheme()" (onOverlayClose)="closeOverlay()" />
+}
